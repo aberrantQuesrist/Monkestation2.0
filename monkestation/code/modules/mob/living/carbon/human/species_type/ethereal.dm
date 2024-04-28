@@ -5,8 +5,7 @@
 	payday_modifier = 1
 	sexes = TRUE
 	species_traits = list(
-		DYNCOLORS,
-		NO_UNDERWEAR,
+		MUTCOLORS,
 		HAIR,
 		FACEHAIR,
 	)

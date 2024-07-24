@@ -285,6 +285,10 @@ GLOBAL_LIST_EMPTY(siren_objects)
 
 	//If mob is not in a turf
 	var/turf/mob_turf = get_turf(mob_to_check)
+
+	if((immunity_type && HAS_TRAIT(mob_to_check, immunity_type)) || HAS_TRAIT(mob_to_check, TRAIT_WEATHER_IMMUNE))
+		return
+
 	var/atom/loc_to_check = mob_to_check.loc
 	while(loc_to_check != mob_turf)
 		if((immunity_type && HAS_TRAIT(loc_to_check, immunity_type)) || HAS_TRAIT(loc_to_check, TRAIT_WEATHER_IMMUNE))
@@ -430,7 +434,7 @@ GLOBAL_LIST_EMPTY(siren_objects)
 
 /obj/machinery/siren/proc/siren_warning(var/msg = "WARNING, bla bla bla bluh.", var/sound_ch = 'monkestation/code/modules/outdoors/sound/effects/weather_warning.ogg')
 	playsound(loc, sound_ch, 50, 0, mixer_channel = CHANNEL_MACHINERY)
-	visible_message(span_danger("[src] make signal. [msg]."))
+	visible_message(span_danger("[src] makes a signal. [msg]."))
 
 /obj/machinery/siren/proc/siren_warning_start(var/msg, var/sound_ch = 'monkestation/code/modules/outdoors/sound/effects/weather_warning.ogg')
 	if(!msg)
@@ -445,7 +449,7 @@ GLOBAL_LIST_EMPTY(siren_objects)
 /obj/machinery/siren/process()
 	if(prob(2))
 		playsound(loc, sound, 80, 0, mixer_channel = CHANNEL_MACHINERY)
-		visible_message(span_danger("[src] make signal. [message]."))
+		visible_message(span_danger("[src] makes a signal. [message]."))
 
 
 /obj/machinery/siren/weather

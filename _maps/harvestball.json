@@ -17,7 +17,6 @@
 			"Up": true,
 			"Linkage": null,
 			"Gravity": true,
-			"Daycycle": true,
 			"Ice Ruins Underground": true,
 			"No Parallax": true,
 			"Forced Safety": true
@@ -27,7 +26,6 @@
 			"Up": true,
 			"Linkage": null,
 			"Gravity": true,
-			"Daycycle": true,
 			"Baseturf": "/turf/open/openspace",
 			"No Parallax": true
 		},
@@ -35,7 +33,6 @@
 			"Down": true,
 			"Linkage": null,
 			"Gravity": true,
-			"Daycycle": true,
 			"Baseturf": "/turf/open/openspace",
 			"No Parallax": true
 		}

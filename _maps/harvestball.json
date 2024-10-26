@@ -3,9 +3,6 @@
 	"map_name": "Harvest Ball",
 	"map_path": "map_files/HarvestBall",
 	"map_file": "harvestball.dmm",
-	"space_ruin_levels": 0,
-	"space_empty_levels": 0,
-	"planetary": 1,
 	"shuttles": {
 		"cargo": "cargo_box",
 		"ferry": "ferry_fancy",
@@ -22,7 +19,6 @@
 			"Gravity": true,
 			"Daycycle": true,
 			"Ice Ruins Underground": true,
-			"Baseturf": "/turf/open/openspace",
 			"No Parallax": true,
 			"Forced Safety": true
 		},

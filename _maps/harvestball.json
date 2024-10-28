@@ -14,7 +14,9 @@
 			"Up": true,
 			"Linkage": null,
 			"Gravity": true,
+			"Daycycle": true,
 			"No Parallax": true,
+			"WeatherOnly": true,
 			"Baseturf": "/turf/closed/mineral/ash_rock"
 		},
 		{
@@ -22,6 +24,8 @@
 			"Up": true,
 			"Linkage": null,
 			"Gravity": true,
+			"Daycycle": true,
+			"WeatherOnly": true,
 			"Baseturf": "/turf/open/openspace",
 			"No Parallax": true
 		},
@@ -29,6 +33,8 @@
 			"Down": true,
 			"Linkage": null,
 			"Gravity": true,
+			"Daycycle": true,
+			"WeatherOnly": true,
 			"Baseturf": "/turf/open/openspace",
 			"No Parallax": true
 		}

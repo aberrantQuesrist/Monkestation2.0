@@ -3,33 +3,31 @@
 	"map_name": "Harvest Ball Map",
 	"map_path": "map_files/HarvestBall",
 	"map_file": "harvestball.dmm",
-	"shuttles": {
-		"cargo": "cargo_box",
-		"ferry": "ferry_fancy",
-		"whiteship": "whiteship_box",
-		"emergency": "emergency_box"
-	},
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"planetary": 1,
 	"particle_weathers": [
-    	"weather_rain"
+    	"rain_storm"
     ],
 	"traits": [
 		{
 			"Up": true,
-			"Linkage": "Cross",
+			"Linkage": null,
 			"Gravity": true,
 			"No Parallax": true,
+			"Baseturf": "/turf/closed/mineral/ash_rock"
 		},
 		{
 			"Down": true,
 			"Up": true,
-			"Linkage": "Cross",
+			"Linkage": null,
 			"Gravity": true,
 			"Baseturf": "/turf/open/openspace",
 			"No Parallax": true
 		},
 		{
 			"Down": true,
-			"Linkage": "Cross",
+			"Linkage": null,
 			"Gravity": true,
 			"Baseturf": "/turf/open/openspace",
 			"No Parallax": true

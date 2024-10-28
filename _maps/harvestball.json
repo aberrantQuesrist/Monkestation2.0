@@ -1,6 +1,6 @@
 {
 	"version": 1,
-	"map_name": "Harvest Ball",
+	"map_name": "Harvest Ball Map",
 	"map_path": "map_files/HarvestBall",
 	"map_file": "harvestball.dmm",
 	"shuttles": {

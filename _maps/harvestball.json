@@ -17,9 +17,7 @@
 			"Up": true,
 			"Linkage": "Cross",
 			"Gravity": true,
-			"Ice Ruins Underground": true,
 			"No Parallax": true,
-			"Forced Safety": true
 		},
 		{
 			"Down": true,

@@ -1,12 +1,25 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"ae" = (
-/obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/iron/checker,
-/area/station/commons/dorms)
-"al" = (
-/obj/structure/trap/eldritch/mad,
+"ad" = (
+/obj/structure/beebox/hive,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
+"aj" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/rune,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"ak" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/ectoplasm/angelic,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"al" = (
+/turf/open/floor/black,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "am" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/grandfatherclock,
@@ -21,16 +34,6 @@
 "aq" = (
 /turf/open/misc/dirt/jungle/wasteland,
 /area/forestplanet/outdoors)
-"au" = (
-/obj/structure/hedge,
-/turf/open/misc/grass/jungle,
-/area/forestplanet/outdoors)
-"aw" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "aA" = (
 /obj/item/flashlight/lantern,
 /turf/open/misc/grass/jungle,
@@ -39,20 +42,27 @@
 /obj/structure/flora/bush/fullgrass,
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
+"aI" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/wall_torch/spawns_lit/directional/south,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"aL" = (
+/obj/item/kirbyplants/organic/plant17,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "aT" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/wood,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"aX" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/structure/closet/cabinet,
+"bc" = (
+/obj/structure/rack/wooden,
+/obj/item/flashlight/flare/candle/infinite,
 /turf/open/floor/wood,
-/area/station/commons/dorms)
-"be" = (
-/obj/effect/mapping_helpers/broken_floor,
-/turf/open/floor/carpet/purple,
 /area/station/commons/dorms)
 "bg" = (
 /obj/structure/chair/plastic{
@@ -60,6 +70,52 @@
 	},
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
+"bj" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/fireplace{
+	fuel_added = 3000
+	},
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"bt" = (
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/turf/open/floor/iron,
+/area/forestplanet/outdoors)
+"bv" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/safe,
+/obj/item/gun/ballistic/shotgun/lethal,
+/obj/item/ammo_casing/shotgun,
+/obj/item/ammo_casing/shotgun,
+/obj/item/ammo_casing/shotgun,
+/obj/item/ammo_casing/shotgun,
+/obj/item/ammo_casing/shotgun,
+/obj/item/ammo_casing/shotgun,
+/obj/item/ammo_casing/shotgun,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"bw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/flippedtable,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "by" = (
 /obj/effect/landmark/start/cargo_technician,
 /turf/open/floor/iron/dark/smooth_large,
@@ -71,6 +127,11 @@
 /obj/structure/flora/bush/reed/style_random,
 /turf/open/water/arena,
 /area/forestplanet/outdoors)
+"bG" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/greenglow/ecto,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "bH" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4;
@@ -78,49 +139,14 @@
 	},
 /turf/open/water/arena,
 /area/forestplanet/outdoors)
-"bJ" = (
-/obj/structure/mannequin,
+"bI" = (
+/obj/structure/closet/crate/wooden/storage_barrel,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
-"bK" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = -14;
-	pixel_y = 14
-	},
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = 1;
-	pixel_y = -14
-	},
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = 15;
-	pixel_y = -14
-	},
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = -14;
-	pixel_y = -14
-	},
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = 15;
-	pixel_y = 1
-	},
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = -14;
-	pixel_y = 1
-	},
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = 15;
-	pixel_y = 14
-	},
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = 1;
-	pixel_y = 14
-	},
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = 1;
-	pixel_y = 1
-	},
-/obj/structure/barricade/wooden,
+"bO" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/rack/wooden,
+/obj/item/flashlight/flare/candle/infinite,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "bT" = (
@@ -159,6 +185,33 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
+"cl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/floodlight_frame,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"cq" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/bookcase/random,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"cu" = (
+/obj/structure/table/wood,
+/obj/item/gun/ballistic/shotgun/buckshotroulette,
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_y = -11
+	},
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"cw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/fluff/minepost,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "cA" = (
 /obj/effect/landmark/start/mime,
 /turf/open/floor/iron/dark/smooth_large,
@@ -180,22 +233,32 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"cG" = (
-/obj/structure/table,
-/obj/item/stack/sheet/wethide,
-/obj/item/razor,
-/turf/open/floor/iron/dark,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"cR" = (
-/obj/structure/bed/maint,
+"cL" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/wood,
+/obj/item/paper/crumpled{
+	default_raw_text = "Our medical officer is dead. She must have gotten to them- but how the hell is she even moving around in this place?! The power has been out for who knows how long. We'd hear her.";
+	name = "We Need to Leave This Place"
+	},
 /turf/open/floor/wood,
+/area/station/commons/dorms)
+"cO" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/table/wood,
+/obj/item/skeleton_key,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"cR" = (
+/turf/open/floor/carpet/purple,
 /area/station/commons/dorms)
 "cT" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/barricade/wooden,
 /turf/open/floor/iron/checker,
+/area/station/commons/dorms)
+"cU" = (
+/obj/structure/closet/crate/large,
+/turf/open/floor/wood,
 /area/station/commons/dorms)
 "cZ" = (
 /obj/structure/table/wood,
@@ -204,37 +267,23 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"da" = (
-/obj/effect/visible_heretic_influence,
-/turf/open/floor/cult,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"dd" = (
-/obj/machinery/siren/weather,
-/turf/open/misc/grass/jungle,
-/area/forestplanet/outdoors)
-"dg" = (
-/obj/structure/trash_pile,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
+"df" = (
+/obj/structure/trap/eldritch/tentacle,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "dj" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/small,
 /area/station/commons/dorms)
 "dp" = (
-/obj/structure/statue/bronze/marx,
-/turf/open/floor/wood,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cloth_pile,
+/turf/open/floor/iron/dark/small,
 /area/station/commons/dorms)
 "du" = (
-/mob/living/basic/bat,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
+/obj/structure/bed/maint,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "dw" = (
 /obj/structure/chair/plastic,
 /turf/open/misc/grass/jungle,
@@ -272,14 +321,11 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"ec" = (
-/obj/item/paper/crumpled{
-	default_raw_text = "Maybe this illness isn't such a curse. At least I won't have to suffer with the rest of them. God bless the rest of the crew. Keep them safe... if you can hear us at all."
-	},
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
+"dZ" = (
+/obj/structure/rack/wooden,
+/obj/item/reagent_containers/cup/glass/bottle/bottleofnothing,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "ed" = (
 /obj/structure/closet/crate/large/import,
 /turf/open/floor/wood,
@@ -302,27 +348,12 @@
 /obj/effect/landmark/start/station_engineer,
 /turf/open/floor/iron/dark/smooth_large,
 /area/forestplanet/outdoors)
-"et" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/flare/candle/infinite,
-/obj/item/dice/d6/ebony,
-/turf/open/misc/dirt/jungle,
-/area/station/commons/dorms)
 "eu" = (
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"ev" = (
-/obj/structure/canister_frame,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"eC" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/greenglow/ecto,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "eD" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
@@ -345,13 +376,10 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"fe" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
+"fb" = (
+/obj/item/ectoplasm/mystic,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "fh" = (
 /obj/structure/grandfatherclock,
 /obj/effect/mapping_helpers/broken_floor,
@@ -364,14 +392,29 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"fn" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/table/wood,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "fo" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/trap/eldritch/alert,
+/obj/structure/table,
+/obj/item/stack/sheet/wethide,
+/obj/item/razor,
+/turf/open/floor/iron/dark,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"fq" = (
+/obj/item/etherealballdeployer,
+/turf/open/floor/wood,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"fr" = (
+/mob/living/basic/ghost,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"fs" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "fu" = (
@@ -383,6 +426,17 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"fw" = (
+/obj/item/clothing/mask/chameleon,
+/obj/item/clothing/mask/chameleon,
+/turf/open/floor/iron,
+/area/forestplanet/outdoors)
+"fB" = (
+/obj/effect/rune,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "fC" = (
 /turf/open/floor/iron/stairs/right{
 	dir = 8
@@ -390,27 +444,17 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"fF" = (
-/obj/structure/sacrificealtar,
-/obj/item/paper/crumpled/bloody{
-	name = "Clear The Way";
-	default_raw_text = "Cut the way though. Each rule shall hold an item that has cleaved flesh from soul. Pray for forgiveness."
-	},
+"fI" = (
+/obj/structure/rack/wooden,
+/obj/item/reagent_containers/cup/glass/bottle/bitters,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"fJ" = (
+/obj/effect/decal/cleanable/oil/slippery,
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"fG" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/gibber,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"fI" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/table/wood,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "fO" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 1
@@ -418,33 +462,37 @@
 /obj/effect/landmark/start/medical_doctor,
 /turf/open/floor/iron/dark/smooth_large,
 /area/forestplanet/outdoors)
+"fQ" = (
+/obj/structure/table/wood,
+/obj/item/hourglass,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"fR" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/atlantis/statue,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "fW" = (
 /obj/structure/dresser,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
-"fZ" = (
-/obj/structure/table,
-/obj/item/kitchen/tongs,
-/turf/open/floor/iron/kitchen,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "gb" = (
 /obj/item/clothing/head/utility/hardhat/pumpkinhead,
 /obj/structure/flora/bush/fullgrass,
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
-"gc" = (
-/obj/item/clothing/neck/chameleon,
-/obj/item/clothing/neck/chameleon,
-/obj/item/clothing/neck/chameleon,
-/obj/item/clothing/neck/chameleon,
-/obj/item/clothing/neck/chameleon,
-/obj/item/clothing/neck/chameleon,
-/obj/item/clothing/neck/chameleon,
-/obj/item/clothing/neck/chameleon,
-/turf/open/floor/iron,
-/area/forestplanet/outdoors)
+"gf" = (
+/obj/boh_tear,
+/turf/open/floor/cult,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"gp" = (
+/obj/item/ceremonial_blade,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "gu" = (
 /obj/item/flashlight/flare/candle/infinite{
 	pixel_y = 14;
@@ -454,13 +502,27 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"gy" = (
+/obj/structure/meateor_fluff/eyeball,
+/turf/open/floor/material/meat,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"gz" = (
+/obj/structure/displaycase/trophy,
+/obj/structure/sign/painting/parting{
+	pixel_y = 30
+	},
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "gC" = (
 /obj/structure/fence,
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
-"gF" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/structure/trap/eldritch/alert,
+"gE" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/bed,
+/obj/item/bedsheet/purple,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "gJ" = (
@@ -471,14 +533,15 @@
 /turf/open/floor/iron/dark/small,
 /area/station/commons/dorms)
 "gM" = (
-/obj/structure/table,
-/obj/item/stack/sheet/cloth/ten,
-/turf/open/floor/iron/dark,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"gP" = (
-/obj/structure/fluff/drake_statue/falling,
+/obj/structure/rack/wooden,
+/obj/item/reagent_containers/cup/glass/bottle/champagne,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"gQ" = (
+/obj/item/paper/crumpled{
+	default_raw_text = "Good riddance, you soulless bitch.";
+	name = "Interview With a Vampire"
+	},
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "gW" = (
@@ -505,6 +568,13 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"hc" = (
+/obj/structure/displaycase/trophy,
+/obj/structure/mirror/directional/south,
+/turf/open/floor/wood/parquet,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "he" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 8
@@ -520,13 +590,6 @@
 /obj/effect/decal/cleanable/cobweb{
 	icon_state = "cobweb2";
 	dir = 5
-	},
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"hi" = (
-/obj/structure/displaycase/trophy,
-/obj/structure/sign/painting/parting{
-	pixel_y = 30
 	},
 /turf/open/floor/wood,
 /area/station/commons/dorms)
@@ -559,16 +622,6 @@
 /obj/effect/landmark/start/wizard,
 /turf/open/floor/iron/dark/smooth_large,
 /area/forestplanet/outdoors)
-"hy" = (
-/obj/item/stake/hardened/silver,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"hA" = (
-/obj/structure/statue/sandstone/assistant,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "hC" = (
 /obj/structure/bookcase/random/religion,
 /turf/open/floor/wood/large,
@@ -582,10 +635,6 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"hJ" = (
-/obj/structure/spirit_board,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "hL" = (
 /obj/machinery/light/floor/has_bulb,
 /turf/open/floor/wood,
@@ -625,10 +674,12 @@
 /obj/item/hatchet,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
-"hS" = (
-/obj/structure/closet/cardboard,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
+"hT" = (
+/mob/living/basic/flesh_spider,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "hV" = (
 /obj/structure/table,
 /obj/machinery/microwave,
@@ -647,13 +698,6 @@
 /obj/structure/fence,
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
-"hZ" = (
-/obj/structure/displaycase/trophy,
-/obj/structure/mirror/directional/south,
-/turf/open/floor/wood/parquet,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "ib" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
@@ -681,12 +725,6 @@
 /obj/structure/bookcase/random,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
-"iq" = (
-/obj/item/ceremonial_blade,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "ir" = (
 /obj/structure/chair/wood{
 	dir = 4;
@@ -706,8 +744,9 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"iO" = (
-/obj/structure/closet/crate/coffin,
+"iB" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/item/flashlight/flare/candle/infinite,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "iQ" = (
@@ -725,14 +764,25 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/checker,
 /area/station/commons/dorms)
+"ja" = (
+/obj/structure/wall_torch/spawns_lit/directional/west,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "jd" = (
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/wood/large,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"jk" = (
-/obj/structure/grille,
+"je" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/statue/bone/rib,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"ji" = (
+/obj/structure/meateor_fluff/abandoned_headcrab_egg,
 /turf/open/floor/material/meat,
 /area/awaymission/cabin{
 	false_outdoors = 1
@@ -751,9 +801,8 @@
 	},
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
-"js" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/structure/table/wood,
+"jv" = (
+/obj/structure/healingfountain,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "jA" = (
@@ -763,19 +812,14 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"jB" = (
-/obj/effect/decal/cleanable/dirt/dust,
+"jC" = (
 /obj/structure/grandfatherclock,
-/turf/open/floor/iron/checker,
-/area/station/commons/dorms)
-"jH" = (
-/mob/living/basic/cockroach,
-/turf/open/floor/iron/dark/herringbone,
+/turf/open/floor/wood/large,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
 "jJ" = (
-/mob/living/basic/bat,
+/obj/structure/trash_pile,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
@@ -787,6 +831,13 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"jT" = (
+/mob/living/basic/bat,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "jX" = (
 /obj/structure/railing{
 	dir = 1
@@ -794,6 +845,10 @@
 /obj/structure/table/wood,
 /obj/item/flashlight/flare/candle/infinite,
 /turf/open/floor/wood,
+/area/station/commons/dorms)
+"jY" = (
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/iron/checker,
 /area/station/commons/dorms)
 "kb" = (
 /obj/structure/chair/wood,
@@ -805,15 +860,18 @@
 	},
 /turf/open/water/arena,
 /area/forestplanet/outdoors)
-"kf" = (
-/obj/item/blackbox,
-/turf/open/ai_visible,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
+"kn" = (
+/obj/structure/flora/tree/jungle/style_random,
+/obj/machinery/siren/weather,
+/turf/open/misc/grass/jungle,
+/area/forestplanet/outdoors)
 "ko" = (
 /obj/structure/bed/double,
 /obj/item/bedsheet/black/double,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"kp" = (
+/obj/item/ectoplasm/angelic,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "kq" = (
@@ -826,10 +884,6 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"kv" = (
-/obj/item/screwdriver,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "kw" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/flare/candle/infinite,
@@ -848,18 +902,9 @@
 /obj/item/blood_vial,
 /turf/open/floor/iron/dark/small,
 /area/station/commons/dorms)
-"kD" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt/jungle,
-/area/station/commons/dorms)
 "kE" = (
-/obj/structure/closet/cabinet,
-/obj/effect/mapping_helpers/broken_floor,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"kF" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/displaycase/trophy,
+/obj/structure/rack/wooden,
+/obj/item/reagent_containers/cup/glass/bottle/wine_voltaic,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "kJ" = (
@@ -886,25 +931,6 @@
 /obj/effect/decal/cleanable/wrapping,
 /turf/open/floor/iron/dark/small,
 /area/station/commons/dorms)
-"kW" = (
-/obj/structure/server,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"lc" = (
-/obj/structure/meateor_fluff/abandoned_headcrab_egg,
-/turf/open/floor/material/meat,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"lf" = (
-/obj/structure/grandfatherclock,
-/turf/open/floor/iron/kitchen,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "lg" = (
 /obj/effect/turf_decal/weather/dirt{
 	pixel_y = -1
@@ -917,35 +943,61 @@
 	initial_gas_mix = "ICEMOON_ATMOS"
 	},
 /area/forestplanet/outdoors)
-"lk" = (
-/obj/effect/decal/cleanable/food/flour,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"ln" = (
-/mob/living/basic/slugcat,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"lo" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/table/wood,
-/obj/item/clothing/head/utility/hardhat/reindeer,
+"lm" = (
+/obj/structure/closet/crate/wooden,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "lp" = (
 /obj/effect/landmark/start/head_of_security,
 /turf/open/floor/iron/dark/smooth_large,
 /area/forestplanet/outdoors)
+"lq" = (
+/obj/machinery/door/airlock/wood,
+/obj/structure/trap/eldritch/tentacle,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"lw" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/rack/wooden,
+/obj/item/reagent_containers/cup/glass/bottle/hcider,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"lz" = (
+/obj/structure/statue/sandstone/assistant,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"lA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "lE" = (
-/obj/structure/statue/bone/skull,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/large,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"lK" = (
+/obj/item/kirbyplants/organic/plant12,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "lL" = (
 /obj/structure/railing,
 /turf/open/floor/iron/checker,
+/area/station/commons/dorms)
+"lO" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/random/maintenance,
+/obj/item/paper_bin{
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/turf/open/floor/wood,
 /area/station/commons/dorms)
 "lQ" = (
 /obj/structure/flora/biolumi,
@@ -997,15 +1049,12 @@
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "ma" = (
-/obj/effect/rune,
-/turf/open/floor/iron/dark/herringbone,
+/obj/structure/table/wood,
+/obj/item/book/bible,
+/turf/open/floor/wood/large,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"mc" = (
-/obj/item/kirbyplants/organic/plant21,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "md" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 1
@@ -1013,6 +1062,26 @@
 /obj/effect/landmark/start/atmospheric_technician,
 /turf/open/floor/iron/dark/smooth_large,
 /area/forestplanet/outdoors)
+"mf" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/flare/candle/infinite,
+/obj/item/dice/d6/ebony,
+/turf/open/misc/dirt/jungle,
+/area/station/commons/dorms)
+"mg" = (
+/obj/machinery/iv_drip,
+/turf/open/floor/iron/dark/small,
+/area/station/commons/dorms)
+"ml" = (
+/obj/structure/grille,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"mr" = (
+/obj/item/kirbyplants/organic/plant1,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "mt" = (
 /obj/effect/mob_spawn/corpse/human/assistant,
 /obj/effect/rune{
@@ -1022,6 +1091,11 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"mu" = (
+/obj/structure/table/wood,
+/obj/item/book/granter/crafting_recipe/trash_cannon,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "my" = (
 /obj/structure/chair/sofa/left/maroon,
 /turf/open/floor/wood/parquet,
@@ -1034,11 +1108,6 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"mH" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/structure/closet/crate/wooden/storage_barrel,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "mK" = (
 /obj/effect/landmark/start/blueshield,
 /turf/open/floor/iron/dark/smooth_large,
@@ -1063,17 +1132,6 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"nc" = (
-/obj/structure/table/wood,
-/obj/effect/spawner/random/maintenance,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"ng" = (
-/obj/effect/decal/cleanable/oil,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "nh" = (
 /obj/structure/grandfatherclock,
 /obj/effect/decal/cleanable/cobweb,
@@ -1082,14 +1140,10 @@
 "nl" = (
 /turf/open/water/arena,
 /area/forestplanet/outdoors)
-"nn" = (
-/obj/item/clothing/mask/chameleon,
-/obj/item/clothing/mask/chameleon,
-/turf/open/floor/iron,
-/area/forestplanet/outdoors)
-"np" = (
-/obj/structure/grandfatherclock,
-/turf/open/floor/material/meat,
+"nm" = (
+/obj/structure/table,
+/obj/structure/bedsheetbin,
+/turf/open/floor/iron/dark,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
@@ -1100,15 +1154,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
-"nu" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/table/wood,
-/obj/item/paper/crumpled{
-	default_raw_text = "Our medical officer is dead. She must have gotten to them- but how the hell is she even moving around in this place?! The power has been out for who knows how long. We'd hear her.";
-	name = "We Need to Leave This Place"
-	},
-/turf/open/floor/wood,
-/area/station/commons/dorms)
+"nw" = (
+/obj/effect/overlay/water_arena,
+/obj/structure/steam_vent/fast,
+/turf/open/misc/dirt/jungle/wasteland,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "nA" = (
 /turf/closed/indestructible/iron,
 /area/awaymission/cabin{
@@ -1134,15 +1186,24 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"nK" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/ectoplasm/angelic,
+"nO" = (
+/obj/structure/closet/crate/maint,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"nQ" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/closet/crate/wooden/storage_barrel,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "nR" = (
 /obj/effect/landmark/start/depsec/supply,
 /turf/open/floor/iron/dark/smooth_large,
 /area/forestplanet/outdoors)
+"nT" = (
+/turf/closed/mineral/gibtonite,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "nU" = (
 /obj/structure/table/wood,
 /obj/machinery/vending/boozeomat,
@@ -1159,10 +1220,13 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"op" = (
-/obj/structure/healingfountain,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
+"oq" = (
+/obj/effect/overlay/water_arena,
+/obj/structure/steam_vent,
+/turf/open/misc/dirt/jungle/wasteland,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "or" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood/parquet,
@@ -1170,9 +1234,12 @@
 	false_outdoors = 1
 	})
 "ou" = (
-/mob/living/basic/bat,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/frame,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "ov" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/carpet/royalblack,
@@ -1184,6 +1251,10 @@
 /obj/item/flashlight,
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
+"oA" = (
+/obj/structure/closet/cardboard,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "oC" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
@@ -1192,10 +1263,6 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"oE" = (
-/obj/item/kirbyplants/organic/plant22,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "oO" = (
 /obj/structure/barricade/wooden,
 /obj/effect/decal/cleanable/blood/old,
@@ -1203,6 +1270,15 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"oW" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/ectoplasm/revenant,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"oX" = (
+/obj/structure/trap/eldritch/alert,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "oY" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
@@ -1211,11 +1287,6 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"oZ" = (
-/obj/structure/table/wood,
-/obj/item/book/granter/crafting_recipe/trash_cannon,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "pd" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/structure/grandfatherclock,
@@ -1223,23 +1294,27 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"pe" = (
+/obj/item/clothing/neck/chameleon,
+/obj/item/clothing/neck/chameleon,
+/obj/item/clothing/neck/chameleon,
+/obj/item/clothing/neck/chameleon,
+/obj/item/clothing/neck/chameleon,
+/obj/item/clothing/neck/chameleon,
+/obj/item/clothing/neck/chameleon,
+/obj/item/clothing/neck/chameleon,
+/turf/open/floor/iron,
+/area/forestplanet/outdoors)
 "pf" = (
-/obj/item/paper/crumpled/bloody{
-	default_raw_text = "Where is hidden from the Clocks' eyes?"
-	},
-/turf/open/floor/cult,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/grandfatherclock,
+/turf/open/floor/wood,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
 "pj" = (
 /obj/structure/bookcase/random/religion,
 /turf/open/floor/wood,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"pp" = (
-/obj/structure/barricade/wooden,
-/turf/open/misc/ironsand,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
@@ -1263,31 +1338,18 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"pz" = (
+/obj/structure/table/wood,
+/obj/item/flashlight,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "pA" = (
 /obj/structure/flora/bush/fullgrass,
 /obj/structure/flora/bush/fullgrass,
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
-"pI" = (
-/obj/structure/chair/wood{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"pJ" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/greenglow/ecto,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"pO" = (
-/obj/item/kirbyplants/organic/plant1,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"pQ" = (
-/obj/item/paper/crumpled{
-	default_raw_text = "Good riddance, you soulless bitch.";
-	name = "Interview With a Vampire"
-	},
+"pB" = (
+/obj/effect/decal/cleanable/chem_pile,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "pU" = (
@@ -1313,23 +1375,6 @@
 	},
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
-"qg" = (
-/obj/structure/closet/crate/wooden,
-/obj/item/reagent_containers/condiment/flour,
-/obj/item/reagent_containers/condiment/flour,
-/obj/item/reagent_containers/condiment/flour,
-/obj/item/reagent_containers/condiment/flour,
-/obj/item/reagent_containers/condiment/flour,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"qk" = (
-/obj/structure/closet/crate/wooden,
-/obj/item/reagent_containers/condiment/flour,
-/obj/item/reagent_containers/condiment/flour,
-/obj/item/reagent_containers/condiment/flour,
-/obj/item/reagent_containers/condiment/flour,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "qp" = (
 /obj/structure/table,
 /turf/open/floor/iron/kitchen,
@@ -1339,6 +1384,22 @@
 "qs" = (
 /turf/open/floor/iron/checker,
 /area/station/commons/dorms)
+"qt" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/wood,
+/obj/item/flashlight/flare/torch,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"qu" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/cobweb{
+	icon_state = "cobweb2";
+	dir = 5
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "qx" = (
 /obj/item/flashlight/flare/candle/infinite{
 	pixel_y = 14;
@@ -1349,6 +1410,12 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"qB" = (
+/obj/effect/decal/cleanable/brimdust,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "qH" = (
 /obj/item/paper/crumpled{
 	name = "Lament";
@@ -1356,34 +1423,32 @@
 	},
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
-"qJ" = (
-/obj/structure/table/wood,
-/obj/item/lead_pipe,
+"qL" = (
+/mob/living/basic/slugcat,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"qQ" = (
+/obj/item/kirbyplants/organic/plant21,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
-"qK" = (
-/obj/item/oar,
-/turf/open/misc/dirt/jungle,
-/area/forestplanet/outdoors)
-"qU" = (
-/obj/item/clothing/mask/chameleon,
-/obj/item/clothing/mask/chameleon,
-/obj/item/clothing/mask/chameleon,
-/obj/item/clothing/mask/chameleon,
-/obj/item/clothing/mask/chameleon,
-/obj/item/clothing/mask/chameleon,
-/obj/item/clothing/mask/chameleon,
-/obj/item/clothing/mask/chameleon,
-/turf/open/floor/iron,
-/area/forestplanet/outdoors)
-"qW" = (
-/obj/structure/chair/wood,
-/turf/open/floor/carpet/purple,
+"qZ" = (
+/obj/structure/closet/crate/wooden,
+/obj/item/reagent_containers/condiment/flour,
+/obj/item/reagent_containers/condiment/flour,
+/obj/item/reagent_containers/condiment/flour,
+/turf/open/floor/wood,
 /area/station/commons/dorms)
-"rj" = (
-/obj/structure/table,
-/obj/structure/bedsheetbin,
-/turf/open/floor/iron/dark,
+"ra" = (
+/turf/open/floor/material/meat,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"rg" = (
+/obj/effect/visible_heretic_influence,
+/turf/open/floor/cult,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
@@ -1392,6 +1457,13 @@
 /obj/effect/rune,
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
+"rt" = (
+/obj/effect/overlay/water_arena,
+/mob/living/basic/flesh_spider,
+/turf/open/misc/dirt/jungle/wasteland,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "ru" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
@@ -1401,21 +1473,15 @@
 	},
 /turf/open/water/arena,
 /area/forestplanet/outdoors)
-"ry" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/structure/grandfatherclock,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"rz" = (
-/turf/open/floor/iron/dark/small,
-/area/station/commons/dorms)
-"rD" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/cobweb,
+"rw" = (
+/obj/effect/decal/cleanable/oil,
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"rz" = (
+/turf/open/floor/iron/dark/small,
+/area/station/commons/dorms)
 "rG" = (
 /obj/structure/table/wood/fancy,
 /obj/item/reagent_containers/cup/glass/bottle/champagne{
@@ -1425,18 +1491,6 @@
 /obj/item/flashlight/flare/candle/infinite,
 /turf/open/floor/carpet,
 /area/station/commons/dorms)
-"rI" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/structure/bookcase/random,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"rJ" = (
-/obj/structure/toilet/greyscale,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "rK" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
@@ -1447,6 +1501,13 @@
 	},
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
+"rQ" = (
+/obj/structure/server,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "rS" = (
 /obj/structure/table/wood,
 /obj/machinery/cassette/adv_cassette_deck{
@@ -1459,6 +1520,9 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"rT" = (
+/turf/closed/indestructible/necropolis,
+/area/station/commons/dorms)
 "rU" = (
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
@@ -1468,16 +1532,6 @@
 /obj/structure/closet/crate/grave/filled,
 /obj/effect/mob_spawn/corpse/human/assistant,
 /turf/open/misc/dirt/jungle,
-/area/forestplanet/outdoors)
-"sd" = (
-/obj/item/clothing/suit/chameleon,
-/obj/item/clothing/suit/chameleon,
-/obj/item/clothing/suit/chameleon,
-/obj/item/clothing/suit/chameleon,
-/obj/item/clothing/suit/chameleon,
-/obj/item/clothing/suit/chameleon,
-/obj/item/clothing/suit/chameleon,
-/turf/open/floor/iron,
 /area/forestplanet/outdoors)
 "sh" = (
 /obj/item/flashlight/flare/candle/infinite{
@@ -1511,22 +1565,6 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"st" = (
-/obj/item/etherealballdeployer,
-/turf/open/floor/wood,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"sz" = (
-/obj/item/ectoplasm/angelic,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"sA" = (
-/obj/structure/ore_box,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "sB" = (
 /turf/open/floor/wood,
 /area/forestplanet/outdoors)
@@ -1537,7 +1575,11 @@
 	false_outdoors = 1
 	})
 "sF" = (
-/obj/structure/grandfatherclock,
+/obj/structure/millstone,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"sG" = (
+/obj/structure/chair/pew/left,
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
 	false_outdoors = 1
@@ -1566,6 +1608,31 @@
 /obj/item/flashlight/flare/candle/infinite,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
+"tg" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/ectoplasm/construct,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"tj" = (
+/obj/structure/sacrificealtar,
+/obj/item/paper/crumpled/bloody{
+	name = "Clear The Way";
+	default_raw_text = "Cut the way though. Each rule shall hold an item that has cleaved flesh from soul. Pray for forgiveness."
+	},
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"tk" = (
+/obj/item/clothing/suit/chameleon,
+/obj/item/clothing/suit/chameleon,
+/obj/item/clothing/suit/chameleon,
+/obj/item/clothing/suit/chameleon,
+/obj/item/clothing/suit/chameleon,
+/obj/item/clothing/suit/chameleon,
+/obj/item/clothing/suit/chameleon,
+/turf/open/floor/iron,
+/area/forestplanet/outdoors)
 "tq" = (
 /obj/structure/closet/crate/coffin/blackcoffin,
 /turf/open/floor/wood,
@@ -1581,23 +1648,28 @@
 	},
 /turf/open/floor/carpet,
 /area/station/commons/dorms)
-"tv" = (
-/turf/open/floor/material/meat,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"tL" = (
-/obj/structure/closet/cabinet,
-/obj/item/documents,
+"ts" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/trap/eldritch/mad,
+/turf/open/floor/carpet,
+/area/station/commons/dorms)
+"tC" = (
+/obj/structure/table/wood,
+/obj/item/lead_pipe,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"tK" = (
+/obj/machinery/door/airlock/wood,
+/obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "tN" = (
 /obj/machinery/vending/autodrobe,
 /turf/open/floor/iron,
 /area/forestplanet/outdoors)
-"tP" = (
-/obj/machinery/door/airlock/wood,
-/obj/effect/decal/cleanable/blood/tracks,
+"tW" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/kirbyplants/organic/plant22,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "uc" = (
@@ -1640,10 +1712,6 @@
 	},
 /turf/open/floor/wood,
 /area/station/commons/dorms)
-"us" = (
-/obj/structure/closet/crate/maint,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "uw" = (
 /obj/structure/railing{
 	dir = 4
@@ -1660,8 +1728,10 @@
 	false_outdoors = 1
 	})
 "uz" = (
-/obj/structure/grandfatherclock,
-/turf/open/floor/wood/large,
+/obj/item/paper/crumpled/bloody{
+	default_raw_text = "Where is hidden from the Clocks' eyes?"
+	},
+/turf/open/floor/cult,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
@@ -1684,6 +1754,13 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"uN" = (
+/obj/structure/fluff/drake_statue{
+	pixel_x = 0;
+	pixel_y = 14
+	},
+/turf/open/floor/iron/checker,
+/area/station/commons/dorms)
 "uQ" = (
 /obj/effect/landmark/start/prisoner,
 /turf/open/floor/iron/dark/smooth_large,
@@ -1697,8 +1774,10 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"uT" = (
-/obj/structure/fermenting_barrel,
+"vc" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/wood,
+/obj/item/clothing/suit/costume/ghost_sheet/spooky,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "vd" = (
@@ -1719,36 +1798,15 @@
 /obj/effect/decal/cleanable/vomit,
 /turf/open/floor/iron/dark/small,
 /area/station/commons/dorms)
-"vw" = (
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/turf/open/floor/iron,
-/area/forestplanet/outdoors)
+"vq" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "vx" = (
 /obj/structure/flora/bush/lavendergrass,
 /turf/open/water/arena,
 /area/forestplanet/outdoors)
-"vB" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/grandfatherclock,
-/turf/open/floor/wood,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "vC" = (
 /obj/item/flashlight/flare/candle/infinite{
 	pixel_y = -14;
@@ -1767,6 +1825,14 @@
 "vI" = (
 /obj/structure/grandfatherclock,
 /turf/open/floor/carpet,
+/area/station/commons/dorms)
+"vK" = (
+/obj/item/pickaxe,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"vM" = (
+/obj/item/scythe,
+/turf/open/floor/wood,
 /area/station/commons/dorms)
 "vO" = (
 /obj/structure/stairs/west,
@@ -1813,6 +1879,12 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"wk" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "wq" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks,
@@ -1820,20 +1892,29 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"wr" = (
+/obj/item/flashlight/flare/candle/infinite,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "wt" = (
 /turf/open/openspace,
 /area/forestplanet/outdoors)
 "wu" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/trap/eldritch/mad,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"ww" = (
+/obj/machinery/vending/autodrobe/all_access,
+/turf/open/floor/iron,
+/area/forestplanet/outdoors)
+"wC" = (
 /obj/structure/tubes,
 /obj/item/crowbar/brass,
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"ww" = (
-/obj/machinery/vending/autodrobe/all_access,
-/turf/open/floor/iron,
-/area/forestplanet/outdoors)
 "wE" = (
 /obj/structure/chair/wood{
 	dir = 4;
@@ -1848,20 +1929,19 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"wM" = (
+/obj/structure/grandfatherclock,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "wP" = (
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/wood,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"wU" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/structure/trap/eldritch/mad,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"wW" = (
-/turf/open/floor/carpet/purple,
-/area/station/commons/dorms)
 "wZ" = (
 /turf/open/floor/iron/stairs/right{
 	dir = 4
@@ -1874,62 +1954,21 @@
 	dir = 4
 	},
 /area/station/commons/dorms)
-"xc" = (
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/obj/item/card/id/advanced/chameleon,
-/turf/open/floor/iron,
-/area/forestplanet/outdoors)
 "xe" = (
 /obj/structure/sink/kitchen/directional/east,
 /turf/open/floor/iron/kitchen,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"xf" = (
-/obj/structure/chair/pew/left,
+"xg" = (
+/obj/structure/reagent_forge,
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"xn" = (
-/obj/item/kirbyplants/organic/plant12,
+"xm" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/chem_pile,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "xp" = (
@@ -1939,86 +1978,72 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"xw" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/fermentation_keg,
+"xu" = (
+/obj/structure/table/wood,
+/obj/item/stack/sheet/sinew/deer,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
-"xy" = (
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/obj/item/clothing/under/chameleon,
-/turf/open/floor/iron,
-/area/forestplanet/outdoors)
-"xA" = (
-/obj/effect/landmark/start/warden,
-/turf/open/floor/iron/dark/smooth_large,
-/area/forestplanet/outdoors)
-"xG" = (
-/mob/living/basic/flesh_spider,
-/turf/open/floor/material/meat,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"xH" = (
-/obj/structure/grandfatherclock,
-/obj/effect/decal/cleanable/dirt/dust,
+"xv" = (
+/obj/structure/statue/sandstone/assistant,
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"xI" = (
-/turf/open/misc/dirt/jungle,
+"xy" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/rack/wooden,
+/turf/open/floor/wood,
 /area/station/commons/dorms)
+"xA" = (
+/obj/effect/landmark/start/warden,
+/turf/open/floor/iron/dark/smooth_large,
+/area/forestplanet/outdoors)
 "xK" = (
 /mob/living/basic/mouse/rat,
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"xM" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/rack/wooden,
+/obj/item/reagent_containers/cup/glass/bottle/wine,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"xN" = (
+/obj/structure/anvil,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "xO" = (
-/obj/item/kirbyplants/organic/plant17,
+/obj/structure/closet/cabinet,
+/obj/item/documents,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
-"xP" = (
-/obj/structure/closet/crate/large,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"xS" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/ectoplasm/revenant,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
+"xQ" = (
+/obj/item/clothing/mask/chameleon,
+/obj/item/clothing/mask/chameleon,
+/obj/item/clothing/mask/chameleon,
+/obj/item/clothing/mask/chameleon,
+/obj/item/clothing/mask/chameleon,
+/obj/item/clothing/mask/chameleon,
+/obj/item/clothing/mask/chameleon,
+/obj/item/clothing/mask/chameleon,
+/turf/open/floor/iron,
+/area/forestplanet/outdoors)
 "ye" = (
 /obj/structure/table,
 /obj/item/food/danish_hotdog,
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
-"yf" = (
+"yi" = (
 /obj/effect/mapping_helpers/broken_floor,
-/obj/structure/easel,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"yg" = (
-/obj/structure/millstone,
+/obj/structure/bed/maint,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "yk" = (
 /obj/structure/table/wood/fancy,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"yl" = (
-/obj/structure/trap/eldritch/alert,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "yn" = (
@@ -2050,10 +2075,19 @@
 /obj/structure/bonfire/prelit,
 /turf/open/misc/dirt/jungle,
 /area/forestplanet/outdoors)
-"yB" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/bookcase/random,
+"yE" = (
+/obj/machinery/plate_press,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"yH" = (
+/obj/structure/closet/crate/wooden,
+/obj/item/reagent_containers/condiment/flour,
+/obj/item/reagent_containers/condiment/flour,
+/obj/item/reagent_containers/condiment/flour,
+/obj/item/reagent_containers/condiment/flour,
+/obj/item/reagent_containers/condiment/flour,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "yI" = (
@@ -2076,12 +2110,15 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"yP" = (
+/mob/living/basic/bat,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "yQ" = (
-/obj/effect/decal/cleanable/oil/slippery,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/easel,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "yS" = (
 /obj/structure/toilet/greyscale,
 /obj/effect/decal/cleanable/cobweb,
@@ -2090,16 +2127,10 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"yT" = (
-/obj/structure/closet/crate/wooden,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"zd" = (
-/mob/living/basic/ghost,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
+"ze" = (
+/obj/structure/hedge,
+/turf/open/misc/grass/jungle,
+/area/forestplanet/outdoors)
 "zq" = (
 /turf/closed/wall/mineral/wood/nonmetal,
 /area/awaymission/cabin{
@@ -2124,16 +2155,6 @@
 	},
 /turf/open/misc/dirt/station,
 /area/forestplanet/outdoors)
-"zx" = (
-/turf/open/chasm,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"zy" = (
-/turf/open/misc/ironsand,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "zz" = (
 /obj/machinery/jukebox/disco,
 /turf/open/floor/carpet/black,
@@ -2151,15 +2172,25 @@
 	},
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
-"zD" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/table/wood,
-/obj/item/flashlight/flare/candle/infinite,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "zE" = (
 /obj/effect/landmark/start/nukeop,
 /turf/open/floor/iron/dark/smooth_large,
+/area/forestplanet/outdoors)
+"zF" = (
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/obj/item/clothing/under/chameleon,
+/turf/open/floor/iron,
 /area/forestplanet/outdoors)
 "zH" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -2188,18 +2219,15 @@
 	},
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
+"zL" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "zP" = (
 /obj/effect/landmark/start/research_director,
 /turf/open/floor/iron/dark/smooth_large,
 /area/forestplanet/outdoors)
-"zU" = (
-/obj/structure/mirror/directional/north,
-/obj/structure/sink/directional/south,
-/obj/effect/landmark/start/cyborg,
-/turf/open/floor/iron/dark,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "zV" = (
 /turf/open/genturf,
 /area/forestplanet/outdoors)
@@ -2220,13 +2248,9 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Aj" = (
-/obj/item/ectoplasm/revenant,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"Ak" = (
-/obj/machinery/plate_press,
-/turf/open/floor/iron/dark/herringbone,
+"Am" = (
+/mob/living/basic/flesh_spider,
+/turf/open/floor/material/meat,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
@@ -2235,12 +2259,19 @@
 /obj/item/food/hotdog,
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
-"Av" = (
-/obj/structure/grille,
+"Ax" = (
+/obj/structure/fluff/big_chain{
+	pixel_y = 18
+	},
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"Ay" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/grandfatherclock,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "AB" = (
 /obj/structure/fireplace{
 	fuel_added = 3000
@@ -2249,17 +2280,14 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"AH" = (
-/obj/structure/mirror/directional/north,
-/obj/structure/sink/directional/south,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "AI" = (
 /turf/open/floor/iron/dark/smooth_large,
 /area/forestplanet/outdoors)
+"AJ" = (
+/obj/structure/table/wood,
+/obj/item/glassblowing/glass_globe,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "AL" = (
 /obj/structure/easel,
 /obj/item/canvas/twentythree_twentythree,
@@ -2274,6 +2302,55 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
+"AU" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = -14;
+	pixel_y = 14
+	},
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = 1;
+	pixel_y = -14
+	},
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = 15;
+	pixel_y = -14
+	},
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = -14;
+	pixel_y = -14
+	},
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = 15;
+	pixel_y = 1
+	},
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = -14;
+	pixel_y = 1
+	},
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = 15;
+	pixel_y = 14
+	},
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = 1;
+	pixel_y = 14
+	},
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/obj/structure/barricade/wooden,
+/obj/structure/light_prism,
+/obj/structure/fluff/big_chain{
+	pixel_y = 18
+	},
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"AV" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/misc/dirt/jungle,
+/area/station/commons/dorms)
 "AW" = (
 /obj/item/flashlight/flare/candle/infinite{
 	pixel_y = -14;
@@ -2289,28 +2366,31 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Bf" = (
-/obj/structure/bed,
-/obj/item/bedsheet/dorms,
-/obj/effect/decal/cleanable/cobweb{
-	icon_state = "cobweb2";
-	dir = 5
-	},
-/turf/open/floor/wood,
+"AZ" = (
+/obj/structure/table,
+/turf/open/floor/iron/dark,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"Bg" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "Bj" = (
 /obj/structure/table/wood,
 /obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/iron/dark/small,
 /area/station/commons/dorms)
-"Bp" = (
-/obj/item/paper/crumpled{
-	name = "Final Laments";
-	default_raw_text = "There aren't many of us left here. Maybe together will be safer... but deep down, we all know it's just a matter of time before she takes the rest of us out."
-	},
-/turf/open/misc/dirt/jungle,
+"Bm" = (
+/obj/item/blackbox,
+/turf/open/ai_visible,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"Bo" = (
+/obj/structure/spirit_board,
+/turf/open/floor/wood,
 /area/station/commons/dorms)
 "Br" = (
 /obj/structure/chair/sofa/right/maroon,
@@ -2319,14 +2399,17 @@
 	},
 /turf/open/floor/carpet,
 /area/station/commons/dorms)
+"By" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "BD" = (
 /obj/item/clothing/head/utility/hardhat/pumpkinhead,
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
-"BG" = (
-/obj/effect/mob_spawn/corpse/human/cook,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "BH" = (
 /obj/effect/landmark/start/chaplain,
 /turf/open/floor/iron/dark/smooth_large,
@@ -2343,18 +2426,45 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"BY" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/bed,
-/obj/item/bedsheet/purple,
+"Ca" = (
+/obj/item/screwdriver,
 /turf/open/floor/wood,
+/area/station/commons/dorms)
+"Cb" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/ectoplasm/construct,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"Cc" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/wood,
+/obj/item/flashlight/flare/candle/infinite,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"Ch" = (
+/obj/structure/table,
+/obj/item/stack/sheet/cloth,
+/turf/open/floor/iron/dark,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"Ci" = (
+/obj/structure/curtain/bounty,
+/turf/closed/indestructible/fakeglass,
 /area/station/commons/dorms)
 "Cj" = (
 /turf/open/floor/iron,
 /area/forestplanet/outdoors)
-"Ck" = (
+"Cm" = (
+/obj/item/soulstone,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"Cr" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/statue/bone/rib,
+/obj/structure/trap/eldritch/alert,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "Cu" = (
@@ -2385,14 +2495,16 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"CF" = (
-/obj/machinery/iv_drip,
-/turf/open/floor/iron/dark/small,
-/area/station/commons/dorms)
 "CI" = (
 /obj/structure/railing,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/checker,
+/area/station/commons/dorms)
+"CN" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/trap/eldritch/alert,
+/turf/open/floor/wood,
 /area/station/commons/dorms)
 "CO" = (
 /obj/structure/table/wood,
@@ -2420,10 +2532,15 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Dg" = (
+"Dc" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/item/ectoplasm/construct,
+/obj/structure/closet/crate/large,
 /turf/open/floor/wood,
+/area/station/commons/dorms)
+"Dt" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/table/wood,
+/turf/open/floor/carpet/purple,
 /area/station/commons/dorms)
 "Du" = (
 /obj/structure/table/wood,
@@ -2432,24 +2549,15 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Dy" = (
-/obj/structure/displaycase/trophy,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"DB" = (
-/obj/structure/artifact/vomit,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
+"DA" = (
+/turf/closed/indestructible/binary,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "DE" = (
 /obj/effect/landmark/start/quartermaster,
 /turf/open/floor/iron/dark/smooth_large,
 /area/forestplanet/outdoors)
-"Ea" = (
-/obj/structure/grandfatherclock,
-/turf/open/floor/iron/dark,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "Eb" = (
 /obj/structure/closet/crate/coffin/blackcoffin,
 /obj/effect/mob_spawn/corpse/human/assistant,
@@ -2457,35 +2565,48 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Eg" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/cloth_pile,
-/turf/open/floor/iron/dark/small,
-/area/station/commons/dorms)
 "Eh" = (
 /obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron/dark/smooth_large,
 /area/forestplanet/outdoors)
-"Ek" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/structure/safe,
-/obj/item/gun/ballistic/shotgun/lethal,
-/obj/item/ammo_casing/shotgun,
-/obj/item/ammo_casing/shotgun,
-/obj/item/ammo_casing/shotgun,
-/obj/item/ammo_casing/shotgun,
-/obj/item/ammo_casing/shotgun,
-/obj/item/ammo_casing/shotgun,
-/obj/item/ammo_casing/shotgun,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
+"Er" = (
+/mob/living/basic/cockroach,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"Es" = (
+/turf/open/misc/ironsand,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "Ex" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/iron/checker,
 /area/station/commons/dorms)
+"Ez" = (
+/obj/cascade_portal,
+/turf/open/floor/cult,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"EA" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/kirbyplants/organic/plant22,
+/obj/item/spess_knife,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "EB" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/wood,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"ED" = (
+/obj/structure/table,
+/obj/item/stack/sheet/cloth/ten,
+/turf/open/floor/iron/dark,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
@@ -2506,19 +2627,14 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"EZ" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/ectoplasm/construct,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"Fc" = (
-/obj/structure/closet/crate/wooden,
-/obj/item/reagent_containers/condiment/flour,
-/obj/item/reagent_containers/condiment/flour,
-/obj/item/reagent_containers/condiment/flour,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
+"Fe" = (
+/obj/structure/mirror/directional/north,
+/obj/structure/sink/directional/south,
+/obj/effect/landmark/start/cyborg,
+/turf/open/floor/iron/dark,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "Fg" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /mob/living/basic/mouse/rat,
@@ -2526,13 +2642,15 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Fk" = (
-/obj/structure/table,
-/obj/item/stack/sheet/cloth,
-/turf/open/floor/iron/dark,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
+"Fh" = (
+/obj/structure/rack/wooden,
+/obj/item/reagent_containers/cup/glass/bottle/ritual_wine,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"Fj" = (
+/obj/structure/trap/eldritch/mad,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "Fm" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/herringbone,
@@ -2556,10 +2674,13 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"FH" = (
-/obj/effect/mob_spawn/corpse/human/skeleton,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
+"FG" = (
+/obj/structure/table,
+/obj/item/kitchen/tongs,
+/turf/open/floor/iron/kitchen,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "FL" = (
 /obj/structure/bookcase/random/religion,
 /obj/effect/decal/cleanable/cobweb{
@@ -2590,6 +2711,10 @@
 "FX" = (
 /turf/open/floor/carpet,
 /area/station/commons/dorms)
+"Ga" = (
+/obj/structure/displaycase/trophy,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "Gb" = (
 /obj/effect/turf_decal/weather/dirt{
 	pixel_y = -1
@@ -2600,14 +2725,14 @@
 /obj/effect/landmark/start/cook,
 /turf/open/floor/iron/dark/smooth_large,
 /area/forestplanet/outdoors)
-"Gf" = (
+"Gd" = (
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Gg" = (
-/obj/structure/meateor_fluff/flesh_pod,
-/turf/open/floor/material/meat,
+"Gf" = (
+/turf/open/floor/iron/dark,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
@@ -2635,21 +2760,11 @@
 	},
 /turf/open/floor/iron/checker,
 /area/station/commons/dorms)
-"Gm" = (
-/turf/closed/wall/material/meat,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"Gp" = (
+"Gn" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/wood,
-/obj/item/gun/ballistic/shotgun/buckshotroulette,
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_y = -11
-	},
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"Gq" = (
-/obj/item/scythe,
+/obj/item/clothing/head/utility/hardhat/reindeer,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "Gt" = (
@@ -2662,11 +2777,6 @@
 "Gu" = (
 /turf/cordon,
 /area/forestplanet/outdoors)
-"Gw" = (
-/obj/structure/table/wood,
-/obj/machinery/ecto_sniffer,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "GD" = (
 /obj/structure/flora/bush/lavendergrass/style_random,
 /turf/open/misc/grass/jungle,
@@ -2676,9 +2786,55 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"GQ" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/structure/displaycase/trophy,
+"GH" = (
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/obj/item/card/id/advanced/chameleon,
+/turf/open/floor/iron,
+/area/forestplanet/outdoors)
+"GR" = (
+/obj/structure/bed{
+	dir = 4
+	},
+/obj/item/bedsheet/dorms{
+	dir = 1
+	},
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "GW" = (
@@ -2688,14 +2844,14 @@
 /obj/structure/barricade/wooden,
 /turf/open/floor/iron/checker,
 /area/station/commons/dorms)
-"Ha" = (
-/obj/structure/destructible/cult/pylon,
-/turf/open/floor/cult,
+"Hb" = (
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Hb" = (
-/obj/effect/decal/cleanable/cobweb/cobweb2,
+"Hc" = (
+/obj/structure/chair/pew/right,
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
 	false_outdoors = 1
@@ -2706,6 +2862,12 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"Hj" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/rack/wooden,
+/obj/item/reagent_containers/cup/glass/bottle/molotov,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "Hk" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 8
@@ -2755,18 +2917,17 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Hn" = (
-/mob/living/basic/flesh_spider,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "Hp" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood/tile,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"Hx" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/closet/cabinet,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "HB" = (
 /turf/closed/indestructible/cult,
 /area/awaymission/cabin{
@@ -2781,19 +2942,21 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/forestplanet/outdoors)
 "HO" = (
-/mob/living/basic/cockroach,
-/obj/effect/decal/cleanable/dirt,
+/mob/living/basic/bat,
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"HS" = (
+/obj/structure/mannequin,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "HU" = (
 /obj/effect/landmark/start/new_player,
 /turf/open/misc/dirt/jungle/wasteland,
 /area/forestplanet/outdoors)
-"HX" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp/green,
+"HW" = (
+/obj/structure/rack/wooden,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "HZ" = (
@@ -2820,14 +2983,14 @@
 	initial_gas_mix = "ICEMOON_ATMOS"
 	},
 /area/forestplanet/outdoors)
-"Ii" = (
-/obj/effect/mapping_helpers/broken_floor,
+"Il" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/closet/crate/large,
-/turf/open/floor/wood,
+/obj/structure/grandfatherclock,
+/turf/open/floor/iron/checker,
 /area/station/commons/dorms)
-"Ik" = (
-/turf/closed/indestructible/necropolis,
+"Im" = (
+/obj/effect/mob_spawn/corpse/human/skeleton,
+/turf/open/floor/wood,
 /area/station/commons/dorms)
 "Ip" = (
 /obj/item/flashlight/flare/candle/infinite{
@@ -2838,10 +3001,25 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"Iq" = (
+/obj/structure/statue/bone/skull,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "Iv" = (
 /obj/effect/landmark/latejoin,
 /turf/open/misc/dirt/jungle/wasteland,
 /area/forestplanet/outdoors)
+"Ix" = (
+/obj/structure/rack/wooden,
+/obj/item/reagent_containers/cup/glass/bottle/applejack,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"Iy" = (
+/obj/structure/bed/maint,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "Iz" = (
 /obj/structure/bed,
 /obj/item/bedsheet/dorms,
@@ -2853,16 +3031,11 @@
 /obj/structure/sign/painting/eldritch/desire,
 /turf/closed/indestructible/wood,
 /area/station/commons/dorms)
-"IC" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/cobweb{
-	icon_state = "cobweb2";
-	dir = 5
-	},
-/turf/open/floor/iron/dark,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
+"IM" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/trap/eldritch/alert,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "IQ" = (
 /obj/item/wallframe/painting,
 /turf/closed/indestructible/wood,
@@ -2885,6 +3058,10 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"Jb" = (
+/obj/item/stake/hardened/silver,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "Jf" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/item/knife/ritual,
@@ -2911,9 +3088,17 @@
 /obj/structure/railing,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
+"Jm" = (
+/obj/structure/canister_frame,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "Jo" = (
 /obj/effect/landmark/start/lawyer,
 /turf/open/floor/iron/dark/smooth_large,
+/area/forestplanet/outdoors)
+"Jp" = (
+/obj/item/oar,
+/turf/open/misc/dirt/jungle,
 /area/forestplanet/outdoors)
 "Jv" = (
 /obj/structure/stairs/east,
@@ -2923,11 +3108,12 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Jw" = (
-/obj/structure/table/wood,
-/obj/item/flashlight,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
+"Jz" = (
+/obj/item/clothing/head/helmet/chaplain/cage,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "JA" = (
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/iron/checker,
@@ -2942,29 +3128,16 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"JE" = (
-/obj/structure/table,
-/obj/item/sharpener,
-/turf/open/floor/iron/kitchen,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
+"JC" = (
+/obj/item/kirbyplants/organic/plant22,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "JF" = (
 /turf/closed/indestructible/fakeglass,
 /area/station/commons/dorms)
-"JG" = (
-/obj/structure/bed{
-	dir = 4
-	},
-/obj/item/bedsheet/dorms{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"JN" = (
-/obj/effect/decal/cleanable/dirt/dust,
+"JI" = (
 /obj/structure/table/wood,
-/obj/item/flashlight/flare/torch,
+/obj/item/wisp_lantern,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "JO" = (
@@ -3021,11 +3194,16 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Kk" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/structure/bed/maint,
+"Ki" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/bouquet/poppy,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
+"Kr" = (
+/obj/structure/grandfatherclock,
+/turf/open/misc/dirt/jungle/wasteland,
+/area/forestplanet/outdoors)
 "Ks" = (
 /obj/structure/fluff/drake_statue{
 	pixel_x = 0;
@@ -3035,16 +3213,9 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Ku" = (
-/obj/effect/decal/cleanable/blood/old,
-/obj/effect/rune,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"Kx" = (
-/obj/structure/meateor_fluff/eyeball,
-/turf/open/floor/material/meat,
+"KB" = (
+/obj/structure/grandfatherclock,
+/turf/open/floor/iron/kitchen,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
@@ -3056,8 +3227,9 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
-"KU" = (
-/obj/structure/chair/pew,
+"KT" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/basic/cockroach,
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
 	false_outdoors = 1
@@ -3069,23 +3241,30 @@
 /obj/effect/landmark/start/depsec/science,
 /turf/open/floor/iron/dark/smooth_large,
 /area/forestplanet/outdoors)
-"KY" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/kirbyplants/organic/plant22,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "KZ" = (
 /obj/item/flashlight,
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
 "La" = (
-/obj/item/pickaxe,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
+/obj/item/paper/crumpled{
+	name = "Don't Blink";
+	default_raw_text = "Save yourselves. Don't blink."
+	},
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "Lb" = (
 /obj/structure/fence/corner,
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
+"Lj" = (
+/obj/structure/kitchenspike,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "Ll" = (
 /obj/effect/turf_decal/weather/dirt{
 	pixel_y = -1
@@ -3114,15 +3293,18 @@
 /obj/item/clothing/neck/stethoscope,
 /turf/open/floor/iron/dark/small,
 /area/station/commons/dorms)
+"Lo" = (
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/carpet/purple,
+/area/station/commons/dorms)
 "Lq" = (
 /obj/structure/bookcase/random,
 /turf/open/floor/wood/large,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Lr" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/structure/chair/wood,
+"Lw" = (
+/obj/structure/artifact/vomit,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "Lz" = (
@@ -3132,6 +3314,12 @@
 /obj/effect/landmark/start/psychologist,
 /turf/open/floor/iron/dark/smooth_large,
 /area/forestplanet/outdoors)
+"LD" = (
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "LE" = (
 /obj/effect/forcefield/cult/permanent,
 /turf/open/floor/cult,
@@ -3141,6 +3329,13 @@
 "LH" = (
 /obj/structure/grandfatherclock,
 /turf/open/floor/wood/tile,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"LL" = (
+/obj/structure/table,
+/obj/item/sharpener,
+/turf/open/floor/iron/kitchen,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
@@ -3166,6 +3361,12 @@
 /obj/item/flashlight/lantern,
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
+"LZ" = (
+/obj/structure/barricade/wooden,
+/turf/open/misc/ironsand,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "Mc" = (
 /obj/structure/chair/sofa/left/maroon{
 	dir = 1
@@ -3174,6 +3375,15 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"Mg" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/statue/bone/skull/half,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"Mi" = (
+/obj/structure/fermenting_barrel,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "Mk" = (
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/iron/dark/small,
@@ -3185,27 +3395,12 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
-"Mn" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/structure/statue/bone/skull/half,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"Mo" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/trap/eldritch/alert,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"Mq" = (
-/turf/open/floor/black,
+"Mm" = (
+/obj/structure/ore_box,
+/turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Mv" = (
-/obj/machinery/door/airlock/wood,
-/obj/structure/trap/eldritch/tentacle,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "Mx" = (
 /obj/item/flashlight/flare/candle/infinite{
 	pixel_x = 14;
@@ -3223,7 +3418,6 @@
 /obj/structure/mirror/directional/north,
 /obj/structure/sink/directional/south,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/landmark/start/ai,
 /turf/open/floor/iron/dark,
 /area/awaymission/cabin{
 	false_outdoors = 1
@@ -3234,15 +3428,16 @@
 	},
 /turf/open/floor/wood,
 /area/station/commons/dorms)
-"MY" = (
-/turf/closed/indestructible/binary,
+"MG" = (
+/obj/effect/mob_spawn/corpse/human/cook,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"MV" = (
+/obj/structure/wall_torch/spawns_lit/directional/east,
+/turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"MZ" = (
-/obj/structure/closet/crate/wooden/storage_barrel,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "Nd" = (
 /obj/effect/landmark/start/chemist,
 /turf/open/floor/iron/dark/smooth_large,
@@ -3267,12 +3462,10 @@
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "Nh" = (
-/obj/structure/statue/sandstone/assistant,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/greenglow/ecto,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "Nj" = (
 /obj/effect/landmark/start/depsec/engineering,
 /turf/open/floor/iron/dark/smooth_large,
@@ -3280,25 +3473,6 @@
 "No" = (
 /obj/effect/mapping_helpers/broken_floor,
 /obj/structure/dresser,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"Ns" = (
-/obj/item/flashlight/flare/candle/infinite,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"Nw" = (
-/obj/structure/gravestone,
-/turf/open/misc/grass/jungle,
-/area/forestplanet/outdoors)
-"Nx" = (
-/obj/structure/table/wood,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/bouquet/poppy,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"NA" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "NC" = (
@@ -3323,16 +3497,40 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"NR" = (
-/obj/structure/table/wood,
-/turf/open/floor/carpet/purple,
+"NO" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/displaycase/trophy,
+/turf/open/floor/wood,
 /area/station/commons/dorms)
+"NP" = (
+/turf/closed/indestructible/necropolis,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"NZ" = (
+/obj/structure/grandfatherclock,
+/turf/open/floor/iron/dark,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"Oa" = (
+/obj/item/paper/crumpled{
+	default_raw_text = "Maybe this illness isn't such a curse. At least I won't have to suffer with the rest of them. God bless the rest of the crew. Keep them safe... if you can hear us at all."
+	},
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "Ob" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"Od" = (
+/obj/structure/table/wood,
+/turf/open/floor/carpet/purple,
+/area/station/commons/dorms)
 "Oe" = (
 /obj/structure/table/wood,
 /obj/item/food/grown/ambrosia/vulgaris,
@@ -3346,19 +3544,18 @@
 	},
 /turf/open/floor/iron/dark/small,
 /area/station/commons/dorms)
-"Of" = (
-/obj/structure/table/wood,
-/obj/item/hourglass,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"Oj" = (
-/obj/structure/table/wood,
-/obj/item/stack/sheet/sinew/deer,
-/turf/open/floor/wood,
+"Ot" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/bonfire,
+/turf/open/misc/dirt/jungle,
 /area/station/commons/dorms)
 "Ov" = (
 /obj/structure/table/wood/fancy,
 /obj/item/flashlight/flare/candle/infinite,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"Ox" = (
+/obj/effect/decal/cleanable/food/flour,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "Oy" = (
@@ -3372,6 +3569,11 @@
 /obj/effect/landmark/start/botanist,
 /turf/open/misc/dirt/jungle/wasteland,
 /area/forestplanet/outdoors)
+"OE" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/fermentation_keg,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "OF" = (
 /obj/item/flashlight/flare/candle/infinite{
 	pixel_y = 14;
@@ -3379,6 +3581,11 @@
 	},
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/iron/checker,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"OP" = (
+/turf/closed/wall/material/meat,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
@@ -3400,9 +3607,11 @@
 	false_outdoors = 1
 	})
 "OW" = (
-/obj/structure/trap/eldritch/tentacle,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
+/obj/structure/grandfatherclock,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "OX" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 9
@@ -3415,6 +3624,15 @@
 	},
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
+"Pb" = (
+/obj/structure/mirror/directional/north,
+/obj/structure/sink/directional/south,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/landmark/start/ai,
+/turf/open/floor/iron/dark,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "Pd" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -3433,10 +3651,24 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Pm" = (
+"Pl" = (
+/mob/living/basic/pig,
+/turf/open/floor/iron/kitchen,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"Pn" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/trap/eldritch/mad,
-/turf/open/floor/carpet,
+/obj/structure/barricade/wooden,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"Pp" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/rack/wooden,
+/obj/item/reagent_containers/cup/glass/bottle/lizardwine,
+/turf/open/floor/wood,
 /area/station/commons/dorms)
 "Pq" = (
 /obj/machinery/grill,
@@ -3444,9 +3676,9 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Pr" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/carpet/purple,
+"Ps" = (
+/obj/item/ectoplasm/revenant,
+/turf/open/floor/wood,
 /area/station/commons/dorms)
 "Pu" = (
 /obj/structure/railing{
@@ -3454,22 +3686,19 @@
 	},
 /turf/open/floor/iron/checker,
 /area/station/commons/dorms)
-"Pz" = (
-/obj/structure/table,
-/turf/open/floor/iron/dark,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
+"Pv" = (
+/obj/structure/table/wood,
+/obj/machinery/ecto_sniffer,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"Pw" = (
+/obj/effect/mapping_helpers/broken_floor,
+/mob/living/basic/bee,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "PC" = (
 /turf/closed/indestructible/wood,
 /area/station/commons/dorms)
-"PD" = (
-/obj/effect/overlay/water_arena,
-/obj/structure/steam_vent,
-/turf/open/misc/dirt/jungle/wasteland,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "PJ" = (
 /obj/machinery/vending/cola/red,
 /turf/open/floor/carpet/royalblack,
@@ -3487,10 +3716,6 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/iron/dark/small,
 /area/station/commons/dorms)
-"PO" = (
-/obj/effect/decal/cleanable/greenglow/ecto,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "PR" = (
 /obj/item/flashlight/flare/candle/infinite{
 	pixel_x = -14;
@@ -3507,9 +3732,20 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"Qa" = (
+/obj/structure/rack/wooden,
+/obj/item/reagent_containers/cup/glass/bottle/moonshine,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "Qc" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"Qg" = (
+/obj/structure/meateor_fluff/flesh_pod,
+/turf/open/floor/material/meat,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
@@ -3545,24 +3781,16 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Qz" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/closet/crate/large,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"QB" = (
-/obj/effect/overlay/water_arena,
-/mob/living/basic/flesh_spider,
-/turf/open/misc/dirt/jungle/wasteland,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "QD" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
 	},
 /turf/open/misc/dirt/jungle/wasteland,
 /area/forestplanet/outdoors)
+"QG" = (
+/obj/structure/statue/bone/rib,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "QH" = (
 /obj/effect/landmark/start/roboticist,
 /turf/open/floor/iron/dark/smooth_large,
@@ -3571,22 +3799,27 @@
 /turf/open/misc/dirt/station,
 /area/forestplanet/outdoors)
 "QK" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/grandfatherclock,
+/turf/open/floor/material/meat,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"QM" = (
+/obj/item/paper/crumpled{
+	name = "Final Laments";
+	default_raw_text = "There aren't many of us left here. Maybe together will be safer... but deep down, we all know it's just a matter of time before she takes the rest of us out."
+	},
+/turf/open/misc/dirt/jungle,
+/area/station/commons/dorms)
+"QQ" = (
+/obj/structure/table/wood,
+/obj/item/paper/crumpled{
+	name = "Frantic Note";
+	default_raw_text = "I can't stop painting. I can't stop. Williams, he took a glance and died on the spot... but sacrifices must be made. I will complete my masterpiece."
+	},
+/obj/structure/trap/eldritch/mad,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
-"QM" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/basic/cockroach,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"QU" = (
-/turf/closed/indestructible/necropolis,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "QZ" = (
 /obj/effect/landmark/start/chief_engineer,
 /turf/open/floor/iron/dark/smooth_large,
@@ -3607,24 +3840,12 @@
 	},
 /turf/open/water/arena,
 /area/forestplanet/outdoors)
-"Ro" = (
-/obj/structure/table/wood,
-/obj/effect/spawner/random/maintenance,
-/obj/item/paper_bin{
-	pixel_x = 7;
-	pixel_y = 7
-	},
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "Rr" = (
-/obj/structure/table/wood,
-/obj/item/paper/crumpled{
-	name = "Frantic Note";
-	default_raw_text = "I can't stop painting. I can't stop. Williams, he took a glance and died on the spot... but sacrifices must be made. I will complete my masterpiece."
-	},
-/obj/structure/trap/eldritch/mad,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
+/obj/structure/destructible/cult/pylon,
+/turf/open/floor/cult,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "Rz" = (
 /obj/structure/closet/crate/grave/filled,
 /turf/open/misc/dirt/dark{
@@ -3635,12 +3856,24 @@
 /obj/effect/landmark/start/bartender,
 /turf/open/misc/dirt/jungle/wasteland,
 /area/forestplanet/outdoors)
+"RE" = (
+/obj/structure/closet/crate/wooden,
+/obj/item/reagent_containers/condiment/flour,
+/obj/item/reagent_containers/condiment/flour,
+/obj/item/reagent_containers/condiment/flour,
+/obj/item/reagent_containers/condiment/flour,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"RG" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/rack/wooden,
+/obj/item/reagent_containers/cup/glass/bottle/cognac,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "RH" = (
-/obj/structure/fluff/drake_statue{
-	pixel_x = 0;
-	pixel_y = 14
-	},
-/turf/open/floor/iron/checker,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/displaycase/trophy,
+/turf/open/floor/wood,
 /area/station/commons/dorms)
 "RK" = (
 /obj/structure/fake_stairs/wood/directional/west,
@@ -3658,6 +3891,12 @@
 /obj/structure/flora/bush/reed/style_random,
 /turf/open/water/arena,
 /area/forestplanet/outdoors)
+"RO" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/bookcase/random,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "RR" = (
 /obj/structure/table/wood,
 /obj/item/clothing/head/utility/hardhat/pumpkinhead,
@@ -3665,11 +3904,6 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"RU" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/item/flashlight/flare/candle/infinite,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "RW" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /turf/open/floor/iron/kitchen,
@@ -3682,11 +3916,17 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Se" = (
+"Sb" = (
 /obj/structure/table/wood,
-/obj/item/glassblowing/glass_globe,
+/obj/item/crusher_trophy/deer_fur,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
+"Sg" = (
+/mob/living/basic/cockroach,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "Sh" = (
 /obj/structure/fence/corner{
 	dir = 10
@@ -3698,8 +3938,23 @@
 /obj/item/clothing/head/utility/hardhat/pumpkinhead,
 /turf/open/misc/dirt/jungle/wasteland,
 /area/forestplanet/outdoors)
+"Sl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/paper/crumpled{
+	default_raw_text = "The longer I stay here, the less and less sense this makes. Why is this even here? What purpose does it serve? Who built this place? Why on this god-forsaken moon??? It's dream logic, yet I can't seem to wake up."
+	},
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "Sn" = (
 /turf/open/floor/wood/tile,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"Sp" = (
+/obj/structure/chair/pew,
+/turf/open/floor/iron/dark/herringbone,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
@@ -3713,6 +3968,10 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"Sx" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/purple,
+/area/station/commons/dorms)
 "Sy" = (
 /obj/effect/mapping_helpers/broken_floor,
 /obj/structure/barricade/wooden,
@@ -3721,6 +3980,17 @@
 "Sz" = (
 /turf/closed/wall/mineral/iron,
 /area/forestplanet/outdoors)
+"SD" = (
+/obj/structure/bed,
+/obj/item/bedsheet/dorms,
+/obj/effect/decal/cleanable/cobweb{
+	icon_state = "cobweb2";
+	dir = 5
+	},
+/turf/open/floor/wood,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "SH" = (
 /obj/structure/railing{
 	dir = 4
@@ -3734,6 +4004,11 @@
 /obj/structure/barricade/wooden,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
+"SJ" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/structure/trap/eldritch/mad,
+/turf/open/floor/iron/dark/small,
+/area/station/commons/dorms)
 "SO" = (
 /obj/structure/railing,
 /turf/open/floor/wood,
@@ -3741,10 +4016,8 @@
 "SQ" = (
 /turf/closed/wall/mineral/wood/nonmetal,
 /area/forestplanet/outdoors)
-"SS" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/kirbyplants/organic/plant22,
-/obj/item/spess_knife,
+"SV" = (
+/obj/structure/closet/crate/coffin,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "SY" = (
@@ -3753,6 +4026,10 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"SZ" = (
+/mob/living/basic/bee,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "Ta" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8;
@@ -3776,10 +4053,6 @@
 	},
 /turf/open/floor/iron/dark/small,
 /area/station/commons/dorms)
-"Te" = (
-/obj/structure/grandfatherclock,
-/turf/open/misc/dirt/jungle/wasteland,
-/area/forestplanet/outdoors)
 "Tj" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/flare/candle/infinite,
@@ -3788,13 +4061,6 @@
 	dir = 5
 	},
 /turf/open/floor/wood/parquet,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"Tn" = (
-/obj/structure/table/wood,
-/obj/item/book/bible,
-/turf/open/floor/wood/large,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
@@ -3821,25 +4087,6 @@
 /obj/structure/bonfire/prelit,
 /turf/open/misc/dirt/station,
 /area/forestplanet/outdoors)
-"Tz" = (
-/obj/item/clothing/head/helmet/chaplain/cage,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"TD" = (
-/obj/effect/decal/cleanable/brimdust,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"TK" = (
-/obj/machinery/washing_machine,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "TL" = (
 /obj/structure/grandfatherclock,
 /turf/open/floor/wood,
@@ -3851,6 +4098,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/paint_palette,
 /turf/open/floor/wood,
+/area/station/commons/dorms)
+"TT" = (
+/obj/structure/chair/wood,
+/turf/open/floor/carpet/purple,
 /area/station/commons/dorms)
 "TV" = (
 /obj/structure/closet/crate/coffin/meatcoffin,
@@ -3889,12 +4140,9 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Ui" = (
-/obj/item/soulstone,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
+"Uo" = (
+/turf/open/misc/dirt/jungle,
+/area/station/commons/dorms)
 "Up" = (
 /turf/closed/wall/mineral/wood/nonmetal,
 /area/station/commons/dorms)
@@ -3908,6 +4156,19 @@
 /obj/item/stack/ore/bluespace_crystal,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
+"Us" = (
+/obj/structure/gravestone,
+/turf/open/misc/dirt/jungle/wasteland,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"Ut" = (
+/obj/item/dousing_rod,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark/herringbone,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "Uy" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/iron/dark/herringbone,
@@ -3918,6 +4179,11 @@
 /obj/effect/decal/cleanable/cobweb,
 /obj/structure/table,
 /turf/open/floor/iron/dark,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"UF" = (
+/turf/open/chasm,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
@@ -3954,11 +4220,10 @@
 /obj/item/stake/hardened,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
-"UZ" = (
-/turf/open/misc/dirt/jungle/wasteland,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
+"UY" = (
+/obj/machinery/siren/weather,
+/turf/open/misc/grass/jungle,
+/area/forestplanet/outdoors)
 "Vc" = (
 /obj/structure/barricade/wooden,
 /obj/structure/grille/broken,
@@ -3966,11 +4231,6 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Vd" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/atlantis/statue,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "Vl" = (
 /obj/effect/portal/permanent{
 	id = 4;
@@ -3985,6 +4245,15 @@
 	},
 /turf/open/floor/wood,
 /area/station/commons/dorms)
+"Vw" = (
+/obj/structure/fluff/drake_statue/falling,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"Vy" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/basic/bee,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "VC" = (
 /obj/structure/chair/plastic{
 	dir = 8;
@@ -3992,14 +4261,17 @@
 	},
 /turf/open/misc/grass/jungle,
 /area/forestplanet/outdoors)
-"VH" = (
-/obj/structure/table/wood,
-/obj/item/crusher_trophy/deer_fur,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"VJ" = (
+"VE" = (
+/obj/structure/toilet/greyscale,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/trap/eldritch/mad,
+/obj/item/soap,
+/turf/open/floor/iron/dark,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
+"VK" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/gibber,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "VO" = (
@@ -4009,11 +4281,6 @@
 /obj/structure/flora/bush/reed/style_random,
 /turf/open/water/arena,
 /area/forestplanet/outdoors)
-"VP" = (
-/turf/closed/mineral/gibtonite,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "VR" = (
 /obj/structure/closet/cabinet,
 /obj/effect/decal/cleanable/cobweb,
@@ -4021,18 +4288,33 @@
 /obj/item/garnish/crystal,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
-"VT" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/bonfire,
-/turf/open/misc/dirt/jungle,
-/area/station/commons/dorms)
 "VU" = (
 /turf/open/floor/wood,
 /area/station/commons/dorms)
-"We" = (
+"VY" = (
+/obj/structure/statue/bronze/marx,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"Wd" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/random/maintenance,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"Wj" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/barricade/wooden,
-/turf/open/floor/iron/dark/herringbone,
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/bottle/holywater,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"Wo" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"Wp" = (
+/obj/machinery/washing_machine,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
@@ -4051,24 +4333,22 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood,
 /area/forestplanet/outdoors)
-"Wu" = (
-/obj/item/paper/crumpled{
-	name = "Don't Blink";
-	default_raw_text = "Save yourselves. Don't blink."
-	},
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "Wv" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/paper/crumpled{
-	default_raw_text = "The longer I stay here, the less and less sense this makes. Why is this even here? What purpose does it serve? Who built this place? Why on this god-forsaken moon??? It's dream logic, yet I can't seem to wake up."
-	},
-/turf/open/floor/iron/dark/herringbone,
+/obj/structure/grille,
+/turf/open/floor/material/meat,
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
+"Wx" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/rack/wooden,
+/obj/item/reagent_containers/cup/glass/bottle/grenadine,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
+"WH" = (
+/obj/structure/gravestone,
+/turf/open/misc/grass/jungle,
+/area/forestplanet/outdoors)
 "WJ" = (
 /obj/structure/sign/painting/eldritch/weeping,
 /turf/closed/indestructible/wood,
@@ -4079,10 +4359,6 @@
 	raw_text_inputs = "Surely you've noticed it too, right? The clocks. They're everywhere. Constant ticking yet never moving their hands. It's almost like this place is taunting me, reminding me that I'm stuck here. Never to go back. Unable to move forward. ...Why the hell am I writing this down next to a hallway full of them? If they ARE alive and supernatural somehow, this is probably the worst decision. You're losing your mind, Schraube.";
 	name = "Schraube's Sanity"
 	},
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"WL" = (
-/obj/item/ectoplasm/mystic,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "WM" = (
@@ -4100,16 +4376,15 @@
 /obj/effect/landmark/start/brig_physician,
 /turf/open/floor/iron/dark/smooth_large,
 /area/forestplanet/outdoors)
-"WP" = (
-/obj/cascade_portal,
-/turf/open/floor/cult,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "WR" = (
 /turf/open/floor/iron/stairs/left{
 	dir = 4
 	},
+/area/station/commons/dorms)
+"WT" = (
+/obj/structure/closet/cabinet,
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/wood,
 /area/station/commons/dorms)
 "Xg" = (
 /turf/open/floor/iron/checker,
@@ -4153,11 +4428,11 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"XK" = (
-/obj/structure/flora/tree/jungle/style_random,
-/obj/machinery/siren/weather,
-/turf/open/misc/grass/jungle,
-/area/forestplanet/outdoors)
+"XS" = (
+/turf/open/misc/dirt/jungle/wasteland,
+/area/awaymission/cabin{
+	false_outdoors = 1
+	})
 "XX" = (
 /obj/structure/table/wood,
 /obj/item/scissors,
@@ -4171,10 +4446,10 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"Ya" = (
+"Yb" = (
 /obj/effect/mapping_helpers/broken_floor,
-/obj/structure/table/wood,
-/turf/open/floor/carpet/purple,
+/obj/structure/trap/eldritch/mad,
+/turf/open/floor/wood,
 /area/station/commons/dorms)
 "Ye" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -4187,6 +4462,10 @@
 /obj/structure/flora/bush/lavendergrass,
 /turf/open/misc/dirt/jungle,
 /area/forestplanet/outdoors)
+"Yi" = (
+/obj/effect/decal/cleanable/greenglow/ecto,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "Yq" = (
 /obj/structure/sign/painting/meat{
 	pixel_y = 31
@@ -4198,11 +4477,6 @@
 /obj/item/flashlight/lantern,
 /turf/open/misc/dirt/jungle/wasteland,
 /area/forestplanet/outdoors)
-"Yu" = (
-/obj/effect/decal/cleanable/blood/old,
-/obj/structure/trap/eldritch/mad,
-/turf/open/floor/iron/dark/small,
-/area/station/commons/dorms)
 "Yy" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood/large,
@@ -4217,6 +4491,11 @@
 /obj/structure/flora/biolumi,
 /turf/open/water/arena,
 /area/forestplanet/outdoors)
+"YD" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/chair/wood,
+/turf/open/floor/wood,
+/area/station/commons/dorms)
 "YE" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 1
@@ -4224,6 +4503,16 @@
 /obj/effect/landmark/start/scientist,
 /turf/open/floor/iron/dark/smooth_large,
 /area/forestplanet/outdoors)
+"YG" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cocaine,
+/obj/item/reagent_containers/cocaine,
+/obj/item/reagent_containers/cocaine,
+/obj/item/reagent_containers/cocaine,
+/obj/item/reagent_containers/cocaine,
+/obj/item/reagent_containers/cocaine,
+/turf/open/floor/carpet/purple,
+/area/station/commons/dorms)
 "YI" = (
 /obj/effect/landmark/start/assistant/override,
 /turf/open/misc/dirt/jungle/wasteland,
@@ -4236,10 +4525,6 @@
 /area/awaymission/cabin{
 	false_outdoors = 1
 	})
-"YM" = (
-/obj/structure/statue/bone/rib,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
 "YN" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
@@ -4275,31 +4560,6 @@
 	},
 /turf/open/floor/iron/checker,
 /area/station/commons/dorms)
-"Zl" = (
-/obj/item/dousing_rod,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"Zm" = (
-/mob/living/basic/pig,
-/turf/open/floor/iron/kitchen,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"Zq" = (
-/obj/structure/gravestone,
-/turf/open/misc/dirt/jungle/wasteland,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
-"Zs" = (
-/obj/structure/chair/pew/right,
-/turf/open/floor/iron/dark/herringbone,
-/area/awaymission/cabin{
-	false_outdoors = 1
-	})
 "Zt" = (
 /obj/structure/bookcase/random,
 /turf/open/floor/wood,
@@ -4316,12 +4576,6 @@
 /obj/structure/closet/cabinet,
 /obj/item/claymore,
 /obj/item/clothing/suit/chaplainsuit/armor/templar,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"ZK" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/table/wood,
-/obj/item/clothing/suit/costume/ghost_sheet/spooky,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "ZL" = (
@@ -4345,11 +4599,6 @@
 	dir = 1
 	},
 /obj/effect/mapping_helpers/broken_floor,
-/turf/open/floor/wood,
-/area/station/commons/dorms)
-"ZZ" = (
-/obj/structure/table/wood,
-/obj/item/wisp_lantern,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 
@@ -30174,7 +30423,7 @@ dW
 Sw
 dW
 dW
-VP
+nT
 dW
 dW
 Sw
@@ -30680,11 +30929,11 @@ dW
 dW
 dW
 dW
-MY
-MY
-MY
-MY
-MY
+DA
+DA
+DA
+DA
+DA
 Sw
 dW
 dW
@@ -30937,9 +31186,9 @@ dW
 dW
 dW
 dW
-MY
-kf
-MY
+DA
+Bm
+DA
 Sw
 Sw
 Sw
@@ -31193,10 +31442,10 @@ dW
 dW
 dW
 dW
-MY
-MY
-MY
-MY
+DA
+DA
+DA
+DA
 Sw
 dW
 dW
@@ -31673,8 +31922,8 @@ HB
 HB
 LE
 LE
-da
-da
+rg
+rg
 LE
 HB
 HB
@@ -31702,14 +31951,14 @@ dW
 dW
 dW
 Sw
-fe
+By
 rU
 Fm
 rU
-yQ
+fJ
 rU
-Mq
-ng
+al
+rw
 Sw
 Sw
 dW
@@ -31720,14 +31969,14 @@ rU
 rU
 rU
 Fm
-QU
+NP
 Ob
 Uy
 Fg
 Ts
 Uy
 Ob
-QU
+NP
 xK
 Ob
 Sw
@@ -31921,10 +32170,10 @@ dW
 HB
 LE
 LE
-Ha
+Rr
 vG
 Kh
-Ha
+Rr
 LE
 LE
 LE
@@ -31934,7 +32183,7 @@ Kh
 Kh
 Kh
 Kh
-da
+rg
 HB
 dW
 dW
@@ -31959,32 +32208,32 @@ dW
 dW
 dW
 Sw
-iq
-xf
+gp
+sG
 rU
-xf
+sG
 rU
-xf
-ng
-Mq
+sG
+rw
+al
 AO
 Sw
 dW
 Sw
 Hb
 Ob
-jH
+Sg
 Fm
 rU
 rU
-QU
+NP
 Uy
 Ts
 pd
 Pd
 Uy
 Uy
-QU
+NP
 rU
 rU
 Sw
@@ -32182,7 +32431,7 @@ vG
 Kh
 vG
 Kh
-Ha
+Rr
 LE
 LE
 Kh
@@ -32217,13 +32466,13 @@ dW
 dW
 Sw
 rU
-KU
-ng
-KU
-Mq
-KU
-Mq
-Mq
+Sp
+rw
+Sp
+al
+Sp
+al
+al
 AO
 Sw
 dW
@@ -32243,7 +32492,7 @@ Sw
 Sw
 Sw
 Ob
-QM
+KT
 Sw
 dW
 dW
@@ -32433,7 +32682,7 @@ dW
 dW
 HB
 LE
-Ha
+Rr
 Kh
 Kh
 Kh
@@ -32474,13 +32723,13 @@ dW
 dW
 Sw
 Fm
-KU
-Tz
-KU
+Sp
+Jz
+Sp
 Fm
-KU
-ng
-ec
+Sp
+rw
+Oa
 AO
 Sw
 dW
@@ -32675,7 +32924,7 @@ Kh
 Kh
 Kh
 Kh
-WP
+Ez
 Kh
 Kh
 Kh
@@ -32701,7 +32950,7 @@ LE
 LE
 Kh
 Kh
-pf
+uz
 cg
 Kh
 Kh
@@ -32710,10 +32959,10 @@ cF
 JB
 JB
 sE
-PD
+oq
+nw
 sE
-sE
-PD
+oq
 nA
 dW
 dW
@@ -32731,17 +32980,17 @@ dW
 dW
 Sw
 rU
-Zs
-Mq
-Zs
+Hc
+al
+Hc
 rU
-Zs
+Hc
 rU
-Mq
+al
 AO
 Sw
 dW
-sF
+OW
 dW
 Sw
 rU
@@ -32947,7 +33196,7 @@ dW
 dW
 HB
 LE
-Ha
+Rr
 Kh
 Kh
 Kh
@@ -32969,7 +33218,7 @@ nA
 nA
 nA
 nA
-Gm
+OP
 sE
 nA
 dW
@@ -32991,10 +33240,10 @@ Hb
 rU
 rU
 Ob
-yQ
+fJ
 rU
-Mq
-ng
+al
+rw
 Sw
 Sw
 dW
@@ -33210,7 +33459,7 @@ Kh
 Kh
 Kh
 Kh
-Ha
+Rr
 LE
 LE
 Kh
@@ -33225,7 +33474,7 @@ dW
 dW
 dW
 nA
-Gm
+OP
 sE
 sE
 nA
@@ -33271,13 +33520,13 @@ Sw
 dW
 Sw
 eu
-jH
+Sg
 rU
 Ob
 rU
 rU
-jH
-Ob
+Sg
+aI
 Sw
 dW
 dW
@@ -33463,10 +33712,10 @@ dW
 HB
 LE
 LE
-Ha
+Rr
 vG
 Kh
-Ha
+Rr
 LE
 LE
 LE
@@ -33476,7 +33725,7 @@ Kh
 Kh
 Kh
 Kh
-da
+rg
 HB
 dW
 dW
@@ -33484,7 +33733,7 @@ dW
 nA
 rU
 Ts
-Gm
+OP
 nA
 dW
 dW
@@ -33516,7 +33765,7 @@ Sw
 dW
 Sw
 rU
-QM
+KT
 Sw
 dW
 dW
@@ -33729,8 +33978,8 @@ HB
 HB
 LE
 LE
-da
-da
+rg
+rg
 LE
 HB
 HB
@@ -33739,9 +33988,9 @@ dW
 dW
 dW
 nA
-lc
+ji
 Ts
-Gm
+OP
 nA
 dW
 dW
@@ -33960,7 +34209,7 @@ dW
 dW
 dW
 HB
-Kh
+gf
 HB
 dW
 dW
@@ -33996,8 +34245,8 @@ dW
 dW
 dW
 nA
-Kx
-Hn
+gy
+hT
 sE
 nA
 nA
@@ -34254,7 +34503,7 @@ dW
 dW
 nA
 Ts
-tv
+ra
 sE
 nA
 nA
@@ -34264,22 +34513,22 @@ sE
 JB
 JB
 Vc
-pp
-zy
+LZ
+Es
 rU
-TD
+qB
 rU
-TD
-zy
+qB
+Es
 Sw
 rU
 rU
 Sw
-tv
-tv
-tv
-tv
-tv
+ra
+ra
+ra
+ra
+ra
 Sw
 Ob
 rU
@@ -34295,8 +34544,8 @@ Sw
 Sw
 Sw
 Sw
-dg
-HO
+jJ
+Er
 Sw
 Ob
 Fm
@@ -34512,31 +34761,31 @@ dW
 nA
 Ts
 sE
-Gm
+OP
 nA
 nA
-PD
+oq
 nA
 nA
 nA
 nA
 Sw
-pp
-TD
+LZ
+qB
 rU
 Ts
-ma
+fB
 rU
-zy
+Es
 Sw
 rU
 Uy
 Sw
-tv
-jk
-tv
-jk
-tv
+ra
+Wv
+ra
+Wv
+ra
 Sw
 yu
 rU
@@ -34546,14 +34795,14 @@ Sw
 eu
 rU
 Sw
-sF
+OW
 rU
 rU
-rU
+Ax
 rU
 Sw
-HO
-dg
+Er
+jJ
 Sw
 rU
 rU
@@ -34768,8 +35017,8 @@ dW
 dW
 nA
 Ts
-PD
-Gm
+oq
+OP
 nA
 nA
 sE
@@ -34780,20 +35029,20 @@ dW
 Sw
 Uy
 rU
-ma
+fB
 rU
 rU
 Ts
-TD
+qB
 Sw
 Fm
 Ob
 Sw
-tv
-tv
-Kx
-tv
-tv
+ra
+ra
+gy
+ra
+ra
 Sw
 eu
 rU
@@ -34803,14 +35052,14 @@ Sw
 Fm
 rU
 Sw
-rU
+Ax
 rU
 rU
 rU
 rU
 Sw
-dg
-HO
+jJ
+Er
 Uy
 rU
 rU
@@ -35026,7 +35275,7 @@ dW
 nA
 Ts
 sE
-Gm
+OP
 nA
 nA
 sE
@@ -35046,11 +35295,11 @@ Sw
 rU
 Ob
 Sw
-tv
-jk
-tv
-jk
-tv
+ra
+Wv
+ra
+Wv
+ra
 Sw
 rU
 Ob
@@ -35060,14 +35309,14 @@ Sw
 rU
 Ob
 Sw
+Lj
 rU
 rU
 rU
-rU
-rU
+Iy
 Sw
-dg
-jH
+jJ
+Sg
 Sw
 rU
 rU
@@ -35282,8 +35531,8 @@ dW
 dW
 nA
 rU
-Gm
-Gm
+OP
+OP
 nA
 nA
 sE
@@ -35292,10 +35541,10 @@ dW
 dW
 dW
 Sw
-TD
-fF
+qB
+tj
 rU
-Ku
+aj
 rU
 rU
 Ts
@@ -35303,11 +35552,11 @@ Uy
 rU
 rU
 Sw
-np
-tv
-tv
-tv
-tv
+QK
+ra
+ra
+ra
+ra
 Sw
 Fm
 rU
@@ -35317,8 +35566,8 @@ Sw
 rU
 rU
 Sw
-rU
-rU
+ml
+ml
 Sw
 Sw
 Sw
@@ -35577,11 +35826,11 @@ Sw
 rU
 rU
 Sw
-Av
-Av
-zx
-Av
-sF
+ml
+ml
+UF
+ml
+OW
 Sw
 rU
 rU
@@ -35788,8 +36037,8 @@ dW
 dW
 dW
 nA
-Gm
-Gm
+OP
+OP
 sE
 sE
 sE
@@ -35808,17 +36057,17 @@ dW
 Sw
 rU
 rU
-ma
+fB
 rU
 rU
 Ts
-TD
+qB
 Sw
 rU
 rU
 Sw
 Sw
-fe
+By
 rU
 rU
 rU
@@ -35826,7 +36075,7 @@ Fm
 rU
 rU
 Ob
-rU
+ja
 rU
 rU
 rU
@@ -35834,11 +36083,11 @@ Sw
 rU
 rU
 Sw
-ln
-Av
-zx
-Av
-du
+qL
+ml
+UF
+ml
+HO
 Uy
 Fm
 rU
@@ -36045,12 +36294,12 @@ dW
 dW
 dW
 nA
-Gm
+OP
 Ts
 Ts
 Ts
-xG
-lc
+Am
+ji
 sE
 sE
 sE
@@ -36063,11 +36312,11 @@ dW
 dW
 dW
 Sw
-zy
-TD
+Es
+qB
 rU
 Ts
-ma
+fB
 rU
 rU
 Sw
@@ -36083,7 +36332,7 @@ rU
 rU
 Ob
 rU
-rU
+MV
 Fm
 Ob
 Ob
@@ -36091,11 +36340,11 @@ Sw
 rU
 rU
 Sw
-Av
-Av
-zx
-Av
-jJ
+ml
+ml
+UF
+ml
+jT
 Sw
 Ob
 rU
@@ -36302,7 +36551,7 @@ dW
 dW
 dW
 nA
-Gm
+OP
 sE
 sE
 sE
@@ -36314,23 +36563,23 @@ sE
 nA
 dW
 nA
-PD
+oq
 nA
 nA
 nA
 nA
 nA
-zy
-zy
+Es
+Es
 rU
-TD
+qB
 rU
-TD
-zy
+qB
+Es
 Sw
-sF
-sF
-sF
+OW
+OW
+OW
 Sw
 Fm
 rU
@@ -36559,14 +36808,14 @@ dW
 dW
 dW
 nA
-Gm
+OP
 sE
 sE
 Ts
 Ts
 Ts
 Ts
-Gm
+OP
 sE
 nA
 dW
@@ -36592,13 +36841,13 @@ Sw
 rU
 Uy
 Sw
-kW
-sF
-sA
+rQ
+OW
+Mm
 Sw
-Fm
-Fm
-Fm
+cl
+ou
+bw
 Sw
 rU
 rU
@@ -36822,9 +37071,9 @@ sE
 sE
 sE
 Ts
-Gm
+OP
 sE
-PD
+oq
 nA
 nA
 nA
@@ -36832,7 +37081,7 @@ nA
 nA
 nA
 nA
-sE
+nw
 nA
 dW
 dW
@@ -36840,21 +37089,21 @@ dW
 dW
 dW
 Sw
-sF
+OW
 rU
 rU
 rU
 rU
 Sw
 rU
-We
+Pn
 Sw
-Ak
-Wv
+yE
+Sl
 Ob
 Sw
-Fm
-Zl
+cw
+Ut
 Fm
 Sw
 rU
@@ -37106,13 +37355,13 @@ Sw
 rU
 rU
 Sw
-wu
+wC
 rU
 rU
 Sw
 Fm
 Ob
-xH
+wM
 Sw
 rU
 rU
@@ -37333,8 +37582,8 @@ nA
 sE
 sE
 sE
-Gm
-Gm
+OP
+OP
 Ts
 Ts
 Ts
@@ -37595,11 +37844,11 @@ sE
 sE
 sE
 sE
-Hn
+hT
 nA
 nA
 sE
-PD
+oq
 sE
 nA
 dW
@@ -37650,7 +37899,7 @@ rU
 Fm
 rU
 Fm
-sF
+OW
 Sw
 dW
 dW
@@ -37846,7 +38095,7 @@ dW
 nA
 sE
 sE
-PD
+oq
 sE
 sE
 sE
@@ -38102,19 +38351,19 @@ dW
 dW
 nA
 sE
-Hn
+hT
 Ts
 Ts
 Ts
-Gg
-Kx
+Qg
+gy
 rU
-tv
+ra
 nA
 dW
 dW
 nA
-QB
+rt
 nA
 dW
 dW
@@ -38358,8 +38607,8 @@ dW
 dW
 dW
 nA
-Gm
-Gm
+OP
+OP
 sE
 sE
 sE
@@ -38391,15 +38640,15 @@ Sw
 rU
 rU
 Sw
-hA
-hA
-hA
-hA
+xv
+xv
+xv
+xv
 rU
 Ob
 Fm
 rU
-hA
+xv
 Sw
 rU
 rU
@@ -38414,7 +38663,7 @@ rU
 rU
 rU
 rU
-sF
+OW
 Sw
 dW
 dW
@@ -38615,10 +38864,10 @@ dW
 dW
 dW
 nA
-Gm
-Gm
-Gm
-Gm
+OP
+OP
+OP
+OP
 sE
 sE
 sE
@@ -38651,12 +38900,12 @@ Sw
 Ob
 rU
 Fm
-Nh
+lz
 Ob
-hA
-hA
+xv
+xv
 rU
-hA
+xv
 Sw
 rU
 rU
@@ -38877,7 +39126,7 @@ nA
 nA
 nA
 nA
-sE
+nw
 nA
 nA
 nA
@@ -38906,14 +39155,14 @@ rU
 Ob
 Uy
 Fm
-hA
+xv
 Fm
-hA
+xv
 rU
 rU
-hA
+xv
 rU
-hA
+xv
 Sw
 rU
 rU
@@ -39134,15 +39383,15 @@ dW
 dW
 nA
 sE
-PD
+oq
 sE
 sE
 sE
 sE
-PD
+oq
 sE
 sE
-sE
+nw
 nA
 dW
 dW
@@ -39162,13 +39411,13 @@ Sw
 rU
 rU
 Uy
-hA
+xv
 rU
 rU
-hA
-hA
+xv
+xv
 rU
-hA
+xv
 rU
 Fm
 Sw
@@ -39419,14 +39668,14 @@ Sw
 Fm
 rU
 Sw
-hA
+xv
 rU
 Ob
 rU
 Fm
 rU
-hA
-hA
+xv
+xv
 rU
 Sw
 rU
@@ -39676,14 +39925,14 @@ Sw
 Hb
 rU
 Sw
-hA
-Nh
-hA
-hA
-hA
-hA
-Nh
-Wu
+xv
+lz
+xv
+xv
+xv
+xv
+lz
+La
 Ob
 Sw
 rU
@@ -39947,7 +40196,7 @@ rU
 rU
 rU
 Sw
-rD
+lA
 Ob
 rU
 rU
@@ -40468,7 +40717,7 @@ rU
 rU
 rU
 rU
-zd
+fr
 rU
 rU
 Sw
@@ -40722,12 +40971,12 @@ Ob
 Fm
 Sw
 rU
-Zq
-UZ
-Zq
-UZ
-Zq
-Ui
+Us
+XS
+Us
+XS
+Us
+Cm
 Sw
 dW
 dW
@@ -40967,10 +41216,10 @@ dW
 dW
 dW
 Sw
-sF
+OW
 rU
-rU
-rU
+xg
+xN
 rU
 rU
 rU
@@ -40979,7 +41228,7 @@ Hb
 rU
 Sw
 rU
-zd
+fr
 rU
 rU
 rU
@@ -41235,13 +41484,13 @@ Sw
 Sw
 Sw
 Sw
-sF
+OW
 rU
 rU
 rU
-zd
+fr
 rU
-zd
+fr
 Sw
 dW
 dW
@@ -41493,11 +41742,11 @@ dW
 dW
 Sw
 rU
-Zq
-UZ
-Zq
-UZ
-Zq
+Us
+XS
+Us
+XS
+Us
 rU
 Sw
 dW
@@ -41749,10 +41998,10 @@ dW
 dW
 dW
 Sw
-zd
+fr
 rU
 rU
-zd
+fr
 rU
 rU
 rU
@@ -77562,7 +77811,7 @@ Cz
 Qq
 Cz
 Cz
-Te
+Kr
 AI
 ys
 ys
@@ -93162,7 +93411,7 @@ TX
 TX
 TX
 TX
-qK
+Jp
 Yh
 RN
 kc
@@ -94673,12 +94922,12 @@ Cz
 Cz
 Cz
 Cz
-au
-au
-au
-au
-au
-au
+ze
+ze
+ze
+ze
+ze
+ze
 Cz
 Cz
 Cz
@@ -95183,20 +95432,20 @@ Cz
 aB
 aB
 Cz
-au
+ze
 ZN
 yS
-aw
-Ea
+Gd
+NZ
 ZN
 Ks
 Xg
 ZN
 UB
-aw
+Gd
 zv
 ZN
-au
+ze
 Cz
 Cz
 Cz
@@ -95440,16 +95689,16 @@ Cz
 Cz
 Cz
 Cz
-au
+ze
 ZN
 SY
 Gf
-aw
+Gd
 ZN
 Xg
 Xg
 ZN
-rj
+nm
 Gf
 zv
 ZN
@@ -95511,7 +95760,7 @@ Cz
 Cz
 Cz
 Qq
-XK
+kn
 Cz
 Cz
 Cz
@@ -95692,28 +95941,28 @@ aq
 Cz
 Cz
 aB
-au
-au
-au
-au
-au
-au
+ze
+ze
+ze
+ze
+ze
+ze
 ZN
-rJ
+VE
 Gf
 Gf
 ZN
 Xg
 Xg
 ZN
-Pz
+AZ
 Gf
 zv
 ZN
 Qu
 ed
 Qu
-st
+fq
 Qu
 ed
 ZN
@@ -95790,7 +96039,7 @@ Cz
 Cz
 Qq
 Qq
-XK
+kn
 Cz
 Cz
 Cz
@@ -95963,8 +96212,8 @@ IU
 Xg
 Xg
 IU
-aw
-aw
+Gd
+Gd
 zv
 ZN
 IZ
@@ -96213,15 +96462,15 @@ UT
 UT
 UT
 ZN
-Mz
+Pb
 Gf
-Fk
+Ch
 ZN
 Xg
 Xg
 ZN
-Ea
-aw
+NZ
+Gd
 zv
 ZN
 Qu
@@ -96231,7 +96480,7 @@ Qu
 kQ
 IZ
 ZN
-au
+ze
 Cz
 Cz
 Cz
@@ -96470,16 +96719,16 @@ kQ
 kQ
 kQ
 ZN
-AH
-aw
-gM
+Mz
+Gd
+ED
 ZN
 Ks
 Xg
 ZN
-rj
-aw
-TK
+nm
+Gd
+Wp
 ZN
 Qu
 ed
@@ -96488,8 +96737,8 @@ kQ
 kQ
 Qu
 ZN
-au
-au
+ze
+ze
 BD
 Cz
 Cz
@@ -96727,14 +96976,14 @@ Iz
 Iz
 kQ
 ZN
-zU
+Fe
 Gf
-cG
+fo
 ZN
 Xg
 Xg
 ZN
-IC
+qu
 Gf
 zv
 ZN
@@ -97232,7 +97481,7 @@ aq
 Cz
 aB
 Cz
-au
+ze
 zq
 TL
 kQ
@@ -97487,11 +97736,11 @@ OY
 aq
 Cz
 Cz
-au
-au
-au
+ze
+ze
+ze
 zq
-Bf
+SD
 Iz
 Iz
 zq
@@ -100347,7 +100596,7 @@ gu
 vC
 zq
 Tp
-Zm
+Pl
 JT
 JT
 JT
@@ -100862,8 +101111,8 @@ vC
 zq
 ps
 JT
-fZ
-JE
+FG
+LL
 JT
 zq
 Cz
@@ -101599,8 +101848,8 @@ OY
 aq
 Cz
 Cz
-au
-au
+ze
+ze
 zq
 RZ
 tq
@@ -101634,7 +101883,7 @@ zq
 jO
 JT
 Pq
-lf
+KB
 wd
 zq
 Cz
@@ -101857,7 +102106,7 @@ aq
 aq
 Cz
 aB
-au
+ze
 zq
 pv
 kQ
@@ -102114,7 +102363,7 @@ Sh
 aq
 aq
 Cz
-au
+ze
 zq
 vQ
 kQ
@@ -103783,7 +104032,7 @@ ys
 AI
 Cj
 Cj
-sd
+tk
 Sz
 aB
 Cz
@@ -103951,7 +104200,7 @@ or
 Jh
 kr
 zq
-au
+ze
 Cz
 aq
 aq
@@ -104039,8 +104288,8 @@ ys
 ys
 AI
 Cj
-xc
-xy
+GH
+zF
 Sz
 Cz
 Cz
@@ -104208,7 +104457,7 @@ or
 Jh
 kr
 zq
-au
+ze
 Cz
 Cz
 aq
@@ -104296,8 +104545,8 @@ ys
 ys
 AI
 aq
-nn
-vw
+fw
+bt
 Sz
 Cz
 Cz
@@ -104465,7 +104714,7 @@ kr
 kr
 kr
 zq
-au
+ze
 Cz
 aB
 aq
@@ -104553,8 +104802,8 @@ ys
 ys
 AI
 aq
-qU
-xy
+xQ
+zF
 Sz
 Cz
 Cz
@@ -104691,8 +104940,8 @@ aq
 gC
 gC
 Lb
-au
-au
+ze
+ze
 zq
 gu
 vC
@@ -104700,7 +104949,7 @@ zq
 Xg
 Xg
 zq
-vB
+pf
 kQ
 Qc
 zq
@@ -104722,7 +104971,7 @@ kr
 kr
 Hg
 zq
-au
+ze
 Cz
 Cz
 Cz
@@ -104810,8 +105059,8 @@ ys
 ys
 AI
 Cj
-gc
-sd
+pe
+tk
 Sz
 Cz
 Qq
@@ -104949,7 +105198,7 @@ Cz
 Cz
 Cz
 aB
-au
+ze
 zq
 gu
 vC
@@ -105206,7 +105455,7 @@ aq
 Cz
 GD
 aB
-au
+ze
 zq
 Ks
 Xg
@@ -105462,8 +105711,8 @@ aq
 aq
 Cz
 Cz
-Nw
-au
+WH
+ze
 zq
 fu
 jA
@@ -105771,7 +106020,7 @@ Cz
 Qq
 Qq
 Qq
-XK
+kn
 Qq
 Qq
 Qq
@@ -105970,7 +106219,7 @@ Cz
 Cz
 OY
 aB
-Nw
+WH
 Cz
 Cz
 aq
@@ -105979,8 +106228,8 @@ Cz
 Cz
 Cz
 Cz
-au
-au
+ze
+ze
 zq
 hC
 Ss
@@ -106237,7 +106486,7 @@ Cz
 Cz
 Cz
 Cz
-au
+ze
 zq
 hC
 Ss
@@ -106260,9 +106509,9 @@ zq
 NK
 kr
 kr
-hZ
+hc
 zq
-au
+ze
 Cz
 aB
 aB
@@ -106494,7 +106743,7 @@ aq
 aq
 aq
 Cz
-au
+ze
 zq
 hC
 hC
@@ -106519,7 +106768,7 @@ kr
 kr
 Mc
 zq
-au
+ze
 Cz
 aB
 aB
@@ -106751,7 +107000,7 @@ aq
 aq
 aq
 aq
-au
+ze
 zq
 Lq
 Ss
@@ -106776,7 +107025,7 @@ kr
 kr
 JO
 zq
-au
+ze
 Cz
 Cz
 Cz
@@ -107008,7 +107257,7 @@ Cz
 Cz
 aq
 aq
-au
+ze
 zq
 hC
 Ss
@@ -107031,9 +107280,9 @@ zq
 NK
 kr
 kr
-hZ
+hc
 zq
-au
+ze
 Cz
 aq
 aq
@@ -107265,12 +107514,12 @@ Cz
 Cz
 aq
 aq
-au
+ze
 zq
 hC
 Ss
 Oy
-uz
+jC
 Ss
 Lq
 Ss
@@ -107290,7 +107539,7 @@ kr
 kr
 CO
 zq
-au
+ze
 Cz
 aq
 aq
@@ -107522,7 +107771,7 @@ aB
 Cz
 aq
 aq
-au
+ze
 zq
 hC
 Ss
@@ -107547,7 +107796,7 @@ nI
 nI
 zq
 zq
-au
+ze
 aq
 aq
 aq
@@ -107771,7 +108020,7 @@ OY
 Cz
 Cz
 Cz
-Nw
+WH
 Cz
 Cz
 GD
@@ -107779,11 +108028,11 @@ aB
 Cz
 aq
 aq
-au
+ze
 zq
 Lq
 Ss
-Tn
+ma
 Qp
 Ss
 Lq
@@ -107802,9 +108051,9 @@ zq
 aB
 aB
 Cz
-au
-au
-au
+ze
+ze
+ze
 aq
 aq
 aq
@@ -108036,7 +108285,7 @@ aB
 Cz
 aq
 aq
-au
+ze
 zq
 ix
 Ss
@@ -108558,10 +108807,10 @@ aB
 Cz
 Cz
 Cz
-au
-au
-au
-au
+ze
+ze
+ze
+ze
 Cz
 Cz
 Cz
@@ -109565,9 +109814,9 @@ Cz
 Cz
 Cz
 Up
-Nx
+Ki
 hQ
-oZ
+mu
 am
 Up
 Cz
@@ -109822,7 +110071,7 @@ Cz
 Cz
 Cz
 Up
-Gw
+Pv
 VU
 VU
 VU
@@ -110093,7 +110342,7 @@ Cz
 Cz
 Cz
 Cz
-Nw
+WH
 Cz
 aq
 Cz
@@ -110336,15 +110585,15 @@ Cz
 Qq
 Cz
 Up
-xO
+aL
 KO
-oE
-xn
+JC
+lK
 Up
 Cz
 Cz
 Cz
-Nw
+WH
 Cz
 Cz
 Cz
@@ -110593,10 +110842,10 @@ Cz
 Cz
 Cz
 Up
-xn
-pO
-Gq
-xO
+lK
+mr
+vM
+aL
 Up
 Cz
 Cz
@@ -110851,18 +111100,18 @@ Cz
 Cz
 Up
 VU
-xO
-mc
+aL
+qQ
 KO
 Up
 Cz
-Nw
+WH
 Cz
 Cz
 Cz
 Cz
 Cz
-Nw
+WH
 Cz
 Cz
 Cz
@@ -111107,10 +111356,10 @@ Cz
 Cz
 aB
 Up
-mc
-oE
+qQ
+JC
 KO
-pO
+mr
 Up
 Cz
 Cz
@@ -111631,7 +111880,7 @@ Cz
 Cz
 Cz
 Cz
-Nw
+WH
 Cz
 GD
 Cz
@@ -111642,14 +111891,14 @@ Cz
 Cz
 Cz
 Up
-cR
-cR
-cR
-uT
+du
+du
+du
+Mi
 iU
-xw
-hS
-xP
+OE
+oA
+cU
 Up
 Cz
 Cz
@@ -111904,9 +112153,9 @@ VU
 VU
 VU
 Ae
-kv
+Ca
 VU
-KY
+tW
 Up
 JF
 JF
@@ -112142,7 +112391,7 @@ Qq
 Cz
 Cz
 Cz
-Nw
+WH
 Cz
 Cz
 Cz
@@ -112163,7 +112412,7 @@ VU
 KO
 VU
 VU
-ev
+Jm
 Up
 VU
 VU
@@ -112413,12 +112662,12 @@ Cz
 GD
 Cz
 Up
-cR
-cR
-cR
-Bp
-xI
-xI
+du
+du
+du
+QM
+Uo
+Uo
 Ae
 VU
 VU
@@ -112670,17 +112919,17 @@ Cz
 Cz
 Cz
 Up
-JN
-Jw
+qt
+pz
 ta
-kD
-VT
-xI
+AV
+Ot
+Uo
 VU
 VU
 Up
 VU
-oE
+JC
 Up
 Cz
 Cz
@@ -112930,11 +113179,11 @@ Up
 hp
 hp
 KO
-xI
-xI
-et
-nc
-Ro
+Uo
+Uo
+mf
+Wd
+lO
 Up
 Up
 Up
@@ -113178,20 +113427,20 @@ Cz
 Cz
 Cz
 Up
-fG
+VK
 VU
-oE
+JC
 Up
 Up
 Up
-yf
+yQ
 VU
 VU
 ta
 VU
 KO
 VU
-us
+nO
 Up
 Cz
 Cz
@@ -113443,8 +113692,8 @@ KO
 VU
 VU
 VU
-Lr
-nc
+YD
+Wd
 VU
 VU
 Ae
@@ -113692,16 +113941,16 @@ Cz
 aB
 Cz
 Up
-ry
+Ay
 KO
-La
+vK
 Up
 Up
 Up
-SS
+EA
 VU
 kb
-nc
+Wd
 KO
 KO
 VU
@@ -113959,10 +114208,10 @@ Up
 Up
 Up
 Up
-xP
+cU
 VU
-us
-us
+nO
+nO
 Up
 Cz
 aB
@@ -118882,7 +119131,7 @@ Cz
 Cz
 Cz
 Cz
-XK
+kn
 Cz
 Cz
 Cz
@@ -118909,7 +119158,7 @@ Cz
 Cz
 Cz
 Cz
-XK
+kn
 Cz
 Cz
 Cz
@@ -119630,7 +119879,7 @@ Cz
 Cz
 Qq
 Qq
-dd
+UY
 Cz
 Cz
 Cz
@@ -120948,7 +121197,7 @@ Cz
 Cz
 Cz
 Qq
-dd
+UY
 Qq
 Qq
 Cz
@@ -122724,7 +122973,7 @@ Cz
 Cz
 Cz
 Cz
-dd
+UY
 Qq
 Qq
 Cz
@@ -160721,16 +160970,16 @@ wt
 wt
 wt
 PC
-DB
-xP
-DB
+Lw
+cU
+Lw
 PC
 JZ
 JZ
 PC
-iO
+SV
 Ae
-ou
+yP
 PC
 wt
 wt
@@ -160978,16 +161227,16 @@ wt
 wt
 wt
 JF
-xP
+cU
 KO
 iU
 PC
 EF
 EF
 PC
-ou
+yP
 Ae
-iO
+SV
 PC
 PC
 PC
@@ -161243,15 +161492,15 @@ EF
 qs
 PC
 iU
-pQ
+gQ
 VU
-iO
+SV
 PC
-ry
-PO
-js
-ZK
-js
+Ay
+Yi
+Bg
+vc
+cO
 PC
 wt
 wt
@@ -161492,23 +161741,23 @@ PC
 PC
 PC
 PC
-DB
+Lw
 VU
-DB
+Lw
 PC
 EF
 qs
 PC
-iO
-FH
+SV
+Im
 Ae
-hy
+Jb
 PC
-fo
-sz
+Cr
+kp
 VU
-WL
-pJ
+fb
+bG
 JF
 wt
 wt
@@ -161742,30 +161991,30 @@ wt
 wt
 wt
 PC
-dp
-Dy
-Dy
-GQ
+VY
+Ga
+Ga
+NO
 PC
-DB
-MZ
+Lw
+bI
 Ae
 VU
-yT
+lm
 PC
 EF
 qs
 PC
-ou
-ou
-ou
+yP
+yP
+yP
 KO
 PC
-hJ
-QK
-EZ
-yl
-xS
+Bo
+vq
+Cb
+oX
+oW
 JF
 wt
 wt
@@ -161999,30 +162248,30 @@ wt
 wt
 wt
 JF
-Vd
-yl
+fR
+oX
 VU
 VU
 PC
-xP
+cU
 Ae
-Ns
+wr
 KO
 Ae
 PC
 qs
 qs
 PC
-op
+jv
 Ae
 VU
 iU
 PC
-pJ
-OW
+bG
+df
 VU
-eC
-js
+Nh
+Bg
 PC
 wt
 wt
@@ -162257,23 +162506,23 @@ wt
 wt
 JF
 Ae
-QK
-VH
-lo
+vq
+Sb
+Gn
 PC
-DB
-xP
-DB
-xP
-DB
+Lw
+cU
+Lw
+cU
+Lw
 PC
 qs
 EF
 PC
 Ae
-ou
+yP
 KO
-iO
+SV
 PC
 PC
 bU
@@ -162513,10 +162762,10 @@ wt
 wt
 wt
 JF
-gP
+Vw
 KO
-Dy
-Dy
+Ga
+Ga
 PC
 PC
 PC
@@ -162530,17 +162779,17 @@ PC
 iU
 VU
 VU
-ou
+yP
 PC
-RU
+iB
 VU
-yl
-gF
-yl
-yl
-yl
-gF
-RU
+oX
+IM
+oX
+oX
+oX
+IM
+iB
 JF
 wt
 wt
@@ -162772,32 +163021,32 @@ wt
 JF
 VU
 VU
-Dy
-kF
-yl
-Ii
-Qz
-Se
+Ga
+RH
+oX
+lE
+Dc
+AJ
 ta
-fI
+wk
 PC
 qs
 qs
 PC
-iO
-ou
-ou
+SV
+yP
+yP
 VU
 PC
-Mo
-PO
+CN
+Yi
 KO
-nK
+ak
 VU
 Ae
-PO
-Dg
-yl
+Yi
+tg
+oX
 JF
 wt
 wt
@@ -163027,16 +163276,16 @@ wt
 wt
 wt
 PC
-Mn
+Mg
 VU
-GQ
-kF
+NO
+RH
 VU
 VU
 VU
 KO
 VU
-NA
+zL
 PC
 qs
 EF
@@ -163046,15 +163295,15 @@ Ae
 VU
 Ae
 PC
-gF
+IM
 VU
-QK
+vq
 VU
-ZZ
+JI
 ci
 ta
 KO
-yl
+oX
 JF
 wt
 wt
@@ -163284,34 +163533,34 @@ PC
 PC
 PC
 PC
-lE
+Iq
 VU
-Gp
-Oj
+cu
+xu
 VU
 Ae
 VU
-xP
+cU
 VU
 VU
 bU
-Ik
-Ik
+rT
+rT
 PC
-iO
-ou
+SV
+yP
 VU
-iO
+SV
 PC
 iU
-gF
-yl
-PO
-fn
-qJ
+IM
+oX
+Yi
+Wo
+tC
 ci
 Ae
-Mo
+CN
 JF
 wt
 wt
@@ -163537,13 +163786,13 @@ wt
 wt
 wt
 PC
-kE
+WT
 VU
-JG
+GR
 PC
-YM
+QG
 KO
-VJ
+wu
 Ae
 VU
 PC
@@ -163563,12 +163812,12 @@ PC
 PC
 PC
 PC
-WL
-PO
+fb
+Yi
 Ae
 VU
-Aj
-gF
+Ps
+IM
 PC
 wt
 wt
@@ -163798,11 +164047,11 @@ ta
 VU
 Ae
 PC
-hi
-GQ
-Dy
-Dy
-Ck
+gz
+NO
+Ga
+Ga
+je
 PC
 EF
 qs
@@ -163818,14 +164067,14 @@ qs
 EF
 qs
 qs
-Ik
+rT
 NC
 VU
 VU
-fo
-yl
-yl
-RU
+Cr
+oX
+oX
+iB
 PC
 wt
 wt
@@ -164308,10 +164557,10 @@ wt
 wt
 wt
 JF
-Of
+fQ
 VU
 kb
-nu
+cL
 PC
 ci
 iU
@@ -164334,9 +164583,9 @@ EN
 Pu
 qs
 PC
-js
+Bg
 VU
-tL
+xO
 VU
 iU
 PC
@@ -164568,9 +164817,9 @@ JF
 ci
 VU
 KO
-HX
+fs
 PC
-Kk
+yi
 VU
 Ae
 ci
@@ -164591,11 +164840,11 @@ EN
 Pu
 qs
 PC
-fn
+Wo
 VU
-QK
+vq
 VU
-fn
+Wj
 PC
 wt
 wt
@@ -164827,10 +165076,10 @@ KO
 VU
 Ae
 PC
-Ae
+bj
 ci
 VU
-bJ
+HS
 PC
 YX
 lL
@@ -164848,11 +165097,11 @@ EN
 Pu
 EF
 PC
-Ek
+bv
 KO
-al
+Fj
 VU
-js
+Bg
 PC
 wt
 wt
@@ -165105,11 +165354,11 @@ EN
 Pu
 qs
 PC
-zD
+Cc
 VU
 VU
 VU
-fI
+wk
 PC
 wt
 wt
@@ -165343,7 +165592,7 @@ bU
 PC
 PC
 PC
-Mv
+lq
 PC
 PC
 qs
@@ -165353,7 +165602,7 @@ EN
 EN
 EN
 EN
-bK
+AU
 EN
 EN
 EN
@@ -165593,7 +165842,7 @@ wt
 wt
 wt
 JF
-RH
+uN
 qs
 EF
 EF
@@ -165601,7 +165850,7 @@ qs
 qs
 qs
 qs
-Ik
+rT
 Ex
 EF
 lL
@@ -165618,7 +165867,7 @@ EN
 EN
 Pu
 cT
-Ik
+rT
 qs
 EF
 qs
@@ -165858,7 +166107,7 @@ qs
 EF
 qs
 EF
-Ik
+rT
 Ex
 qs
 lL
@@ -165874,7 +166123,7 @@ EN
 EN
 EN
 lR
-Ik
+rT
 EF
 qs
 EF
@@ -166142,7 +166391,7 @@ PC
 PC
 PC
 PC
-bU
+NC
 PC
 PC
 wt
@@ -166390,14 +166639,14 @@ PC
 PC
 VU
 Ae
-QK
+vq
 PC
 qs
 qs
 PC
-QK
-VU
-VU
+vq
+ad
+Ae
 VU
 VU
 KO
@@ -166644,19 +166893,19 @@ ZC
 GW
 PC
 PC
-Ae
-KO
-KO
+Hj
+bO
+Wx
 VU
 PC
 qs
 EF
 PC
-QK
+vq
 VU
 VU
-QK
-Ae
+vq
+Pw
 VU
 JF
 wt
@@ -166889,7 +167138,7 @@ PC
 PC
 PC
 Ex
-Ik
+rT
 qs
 qs
 qs
@@ -166898,12 +167147,12 @@ EF
 Ex
 qs
 EF
-Ik
+rT
 NC
 VU
-VU
-Ae
-VU
+HW
+xy
+Ix
 VU
 PC
 EF
@@ -166911,9 +167160,9 @@ qs
 PC
 VU
 Ae
-VU
-VU
-VU
+pB
+ad
+Ae
 KO
 JF
 wt
@@ -167161,15 +167410,15 @@ VU
 VU
 KO
 VU
-QK
+vq
 PC
 qs
 qs
 PC
+Ae
+SZ
 VU
-VU
-VU
-VU
+SZ
 VU
 Ae
 PC
@@ -167411,24 +167660,24 @@ WR
 PC
 ta
 Ae
-Ik
-Ik
+rT
+rT
 PC
-Ae
-KO
-Ae
-VU
+lw
+bO
+RG
+HW
 VU
 PC
 qs
 qs
 PC
-VU
+ad
 VU
 KO
 VU
 Ae
-VU
+SZ
 PC
 PC
 wt
@@ -167658,7 +167907,7 @@ sB
 sB
 PC
 iU
-fo
+Cr
 VU
 iU
 iU
@@ -167682,10 +167931,10 @@ EF
 PC
 KO
 Ae
-KO
+xm
+SZ
 VU
-VU
-VU
+ad
 Ae
 PC
 wt
@@ -167917,7 +168166,7 @@ PC
 iU
 iU
 Vs
-OW
+df
 pU
 PC
 EN
@@ -167928,20 +168177,20 @@ VU
 qs
 qs
 PC
-PC
-PC
-PC
-PC
-PC
+VU
+gM
+bc
+fI
+bc
 PC
 qs
 qs
 PC
-KO
+Vy
+ad
+Ae
 VU
-VU
-VU
-VU
+Ae
 KO
 Ae
 JF
@@ -168199,8 +168448,8 @@ VU
 Ae
 VU
 VU
-VU
-QK
+SZ
+vq
 PC
 wt
 wt
@@ -168442,10 +168691,10 @@ Ae
 qs
 qs
 PC
-Ae
-VU
-VU
-KO
+xM
+Qa
+dZ
+am
 Ae
 PC
 qs
@@ -168455,7 +168704,7 @@ PC
 PC
 PC
 Up
-bU
+NC
 PC
 PC
 PC
@@ -168708,13 +168957,13 @@ PC
 qs
 EF
 PC
-yB
+RO
 am
 Ae
 VU
 VU
 in
-rI
+cq
 PC
 wt
 wt
@@ -168956,10 +169205,10 @@ iU
 qs
 qs
 PC
-Ae
+Pp
+Fh
 VU
-VU
-VU
+kE
 VU
 bU
 qs
@@ -168967,9 +169216,9 @@ qs
 PC
 NE
 VU
-wW
-Pr
-Pr
+cR
+Sx
+Sx
 VU
 VU
 PC
@@ -169200,7 +169449,7 @@ wt
 wt
 wt
 JF
-RH
+uN
 qs
 qs
 qs
@@ -169222,14 +169471,14 @@ PC
 qs
 qs
 PC
-HX
-QK
-Pr
-wW
-Ya
+fs
+vq
+Sx
+cR
+Dt
 ci
 KO
-JF
+Ci
 wt
 wt
 wt
@@ -169470,23 +169719,23 @@ qs
 qs
 EF
 PC
-mH
-qk
-lk
-Fc
-mH
+nQ
+RE
+Ox
+qZ
+nQ
 PC
 EF
 qs
 PC
-fn
-pI
-wW
-qW
-NR
+Wo
+LD
+cR
+TT
+YG
 ci
-QK
-JF
+vq
+Ci
 wt
 wt
 wt
@@ -169727,23 +169976,23 @@ fh
 qs
 qs
 PC
-MZ
-lk
+bI
+Ox
 Ae
-lk
-MZ
+Ox
+bI
 PC
 qs
 qs
 PC
-zD
+Cc
 VU
-be
-Pr
-NR
+Lo
+Sx
+Od
 ci
 Ae
-JF
+Ci
 wt
 wt
 wt
@@ -169984,20 +170233,20 @@ PC
 qs
 qs
 PC
-MZ
-QK
-yg
+bI
+vq
+sF
 KO
-MZ
+bI
 PC
 qs
 qs
 PC
 Ae
 VU
-wW
-wW
-wW
+cR
+cR
+cR
 KO
 VU
 PC
@@ -170234,28 +170483,28 @@ ta
 UO
 ci
 TS
-Rr
+QQ
 dO
 ta
 IQ
 qs
 qs
 PC
-MZ
-qg
-lk
-qk
-mH
+bI
+yH
+Ox
+RE
+nQ
 PC
 qs
 qs
 PC
-BY
+gE
 KO
-QK
-QK
+vq
+vq
 NE
-aX
+Hx
 NE
 PC
 wt
@@ -170488,11 +170737,11 @@ wt
 wt
 JF
 AL
-VJ
+wu
 Ae
-al
+Fj
 VU
-al
+Fj
 KO
 IQ
 EF
@@ -170509,7 +170758,7 @@ qs
 PC
 PC
 PC
-bU
+NC
 PC
 PC
 PC
@@ -170745,8 +170994,8 @@ wt
 wt
 JF
 AL
-wU
-BG
+Yb
+MG
 KO
 VU
 KO
@@ -171005,7 +171254,7 @@ ta
 ci
 ci
 UO
-al
+Fj
 VU
 gZ
 IQ
@@ -171520,7 +171769,7 @@ wt
 WJ
 ta
 KO
-al
+Fj
 iU
 IQ
 Sy
@@ -171790,14 +172039,14 @@ VU
 in
 PC
 FX
-Pm
+ts
 FX
 PC
 iU
 VU
 wE
 Cu
-JF
+Ci
 wt
 wt
 wt
@@ -172033,7 +172282,7 @@ wt
 wt
 PC
 Ln
-Eg
+dp
 Oe
 Xh
 PC
@@ -172054,7 +172303,7 @@ KO
 kb
 yk
 Ov
-JF
+Ci
 wt
 wt
 wt
@@ -172292,9 +172541,9 @@ PC
 kx
 rz
 kR
-Yu
-tP
-ae
+SJ
+tK
+jY
 qs
 PC
 ic
@@ -172311,7 +172560,7 @@ Ae
 kb
 yk
 yk
-JF
+Ci
 wt
 wt
 wt
@@ -172568,7 +172817,7 @@ ZE
 KO
 ns
 hp
-JF
+Ci
 wt
 wt
 wt
@@ -172806,7 +173055,7 @@ JF
 Da
 rz
 Mk
-CF
+mg
 PC
 qs
 qs
@@ -173579,7 +173828,7 @@ Mk
 vp
 vX
 PC
-jB
+Il
 JZ
 PC
 hg
@@ -173840,13 +174089,13 @@ JF
 JF
 PC
 PC
-JF
-JF
-JF
+Ci
+Ci
+Ci
 PC
 PC
 PC
-JF
+Ci
 PC
 PC
 wt

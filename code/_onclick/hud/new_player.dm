@@ -545,4 +545,4 @@
 	. = ..()
 	if(!.)
 		return
-	playsound(usr, 'monkestation/sound/misc/menumonkey.ogg', 50, TRUE)
+//	playsound(usr, 'monkestation/sound/misc/menumonkey.ogg', 50, TRUE)

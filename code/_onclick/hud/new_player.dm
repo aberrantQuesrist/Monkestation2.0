@@ -385,7 +385,7 @@
 	icon = 'icons/hud/lobby/poll.dmi'
 	icon_state = "poll"
 	base_icon_state = "poll"
-	screen_loc = "TOP:-96,CENTER:-208"
+	screen_loc = "TOP:-91,CENTER:-203"
 
 	var/new_poll = FALSE
 

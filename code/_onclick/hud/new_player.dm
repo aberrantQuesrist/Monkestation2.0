@@ -385,7 +385,7 @@
 	icon = 'icons/hud/lobby/poll.dmi'
 	icon_state = "poll"
 	base_icon_state = "poll"
-	screen_loc = "TOP:-98,CENTER:-240"
+	screen_loc = "TOP:-96,CENTER:-208"
 
 	var/new_poll = FALSE
 
@@ -450,7 +450,7 @@
 	var/vanderlin = 0
 	icon = 'icons/hud/lobby/location_indicator.dmi'
 	icon_state = "you_are_here"
-	screen_loc = "TOP,CENTER:-70"
+	screen_loc = "TOP,CENTER:-74"
 
 //Explanation: It gets the port then sets the "here" var in /movable/screen/lobby to the port number
 // and if the port number matches it makes clicking the button do nothing so you dont spam reconnect to the server your in
@@ -458,21 +458,23 @@
 	. = ..()
 	var/port = world.port
 	switch(port)
-		if(1337)
-			screen_loc = "TOP:-87,CENTER:+190"
-		if(2102)
-			screen_loc = "TOP:-100,CENTER:+190"
-		if(1342)
-			screen_loc = "TOP:-34,CENTER:+190"
+		if(1342) //HRP
+			screen_loc = "TOP:-252,CENTER:-248"
+		if(1337) //MRP
+			screen_loc = "TOP:-284,CENTER:-248"
+		if(2102) //LRP
+			screen_loc = "TOP:-316,CENTER:-248"
+
 		else
-			screen_loc = "TOP:0,CENTER:-70"
+			//TOP:0,CENTER:-74 will make the arrow point at MonkeStation logo, fitting for local test servers.
+			screen_loc = "TOP:0,CENTER:-74"
 
 
 //HRP MONKE
 /atom/movable/screen/lobby/button/hrp
 	screen_loc = "TOP:-257,CENTER:-283"
 	icon = 'icons/hud/lobby/sister_server_buttons.dmi'
-	icon_state = "hrp_off"
+	icon_state = "hrp_disabled"
 	base_icon_state = "hrp"
 	enabled = FALSE
 
@@ -481,7 +483,6 @@
 	if(time2text(world.realtime, "DDD") == "Sat")
 		flick("[base_icon_state]", src)
 		set_button_status(TRUE)
-
 
 /atom/movable/screen/lobby/button/hrp/Click(location, control, params)
 	. = ..()
@@ -521,7 +522,7 @@
 
 //The Vanderlin Project
 /atom/movable/screen/lobby/background/vanderlin
-	screen_loc = "TOP:-351,CENTER:-276"
+	screen_loc = "TOP:-351,CENTER:-278"
 	icon = 'icons/hud/lobby/vanderlin_button.dmi'
 	icon_state = "vanderlin_WIP"
 	base_icon_state = "vanderlin_WIP"
@@ -544,4 +545,4 @@
 	. = ..()
 	if(!.)
 		return
-//	playsound(get_turf(usr), 'monkestation/sound/misc/menumonkey.ogg', 50, TRUE)
+	playsound(usr, 'monkestation/sound/misc/menumonkey.ogg', 50, TRUE)

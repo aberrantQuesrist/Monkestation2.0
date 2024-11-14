@@ -32,9 +32,9 @@
 
 /atom/movable/screen/lobby/background
 	layer = LOBBY_BACKGROUND_LAYER
-	icon = 'icons/hud/lobby/background_monke.dmi'
+	icon = 'icons/hud/lobby/background_monke_left.dmi'
 	icon_state = "background"
-	screen_loc = "TOP,CENTER:-61"
+	screen_loc = "TOP,CENTER:-288"
 
 /atom/movable/screen/lobby/button
 	///Is the button currently enabled?
@@ -105,7 +105,7 @@
 
 ///Prefs menu
 /atom/movable/screen/lobby/button/character_setup
-	screen_loc = "TOP:-87,CENTER:+100"
+	screen_loc = "TOP:-132,CENTER:-277"
 	icon = 'icons/hud/lobby/character_setup.dmi'
 	icon_state = "character_setup"
 	base_icon_state = "character_setup"
@@ -122,7 +122,7 @@
 
 ///Button that appears before the game has started
 /atom/movable/screen/lobby/button/ready
-	screen_loc = "TOP:-54,CENTER:-35"
+	screen_loc = "TOP:-54,CENTER:-279"
 	icon = 'icons/hud/lobby/ready.dmi'
 	icon_state = "not_ready"
 	base_icon_state = "not_ready"
@@ -171,7 +171,7 @@
 
 ///Shown when the game has started
 /atom/movable/screen/lobby/button/join
-	screen_loc = "TOP:-54,CENTER:-35"
+	screen_loc = "TOP:-54,CENTER:-279"
 	icon = 'icons/hud/lobby/join.dmi'
 	icon_state = "" //Default to not visible
 	base_icon_state = "join_game"
@@ -246,7 +246,7 @@
 	RegisterSignal(SSticker, COMSIG_TICKER_ENTER_SETTING_UP, PROC_REF(show_join_button))
 
 /atom/movable/screen/lobby/button/observe
-	screen_loc = "TOP:-54,CENTER:+82"
+	screen_loc = "TOP:-98,CENTER:-277"
 	icon = 'icons/hud/lobby/observe.dmi'
 	icon_state = "observe_disabled"
 	base_icon_state = "observe"
@@ -276,7 +276,7 @@
 	icon = 'icons/hud/lobby/bottom_buttons.dmi'
 	icon_state = "patreon"
 	base_icon_state = "patreon"
-	screen_loc = "TOP:-126,CENTER:86"
+	screen_loc = "TOP:-73,CENTER:-114"
 
 /atom/movable/screen/lobby/button/patreon_link/Click(location, control, params)
 	. = ..()
@@ -290,7 +290,7 @@
 	icon = 'icons/hud/lobby/bottom_buttons.dmi'
 	icon_state = "intents"
 	base_icon_state = "intents"
-	screen_loc = "TOP:-126,CENTER:62"
+	screen_loc = "TOP:-49,CENTER:-114"
 
 /atom/movable/screen/lobby/button/intents/Click(location, control, params)
 	. = ..()
@@ -303,7 +303,7 @@
 	icon = 'icons/hud/lobby/bottom_buttons.dmi'
 	icon_state = "discord"
 	base_icon_state = "discord"
-	screen_loc = "TOP:-126,CENTER:38"
+	screen_loc = "TOP:-73,CENTER:-138"
 
 /atom/movable/screen/lobby/button/discord/Click(location, control, params)
 	. = ..()
@@ -315,7 +315,7 @@
 	icon = 'icons/hud/lobby/bottom_buttons.dmi'
 	icon_state = "info"
 	base_icon_state = "info"
-	screen_loc = "TOP:-126,CENTER:14"
+	screen_loc = "TOP:-73,CENTER:-162"
 
 /atom/movable/screen/lobby/button/twitch/Click(location, control, params)
 	. = ..()
@@ -329,7 +329,7 @@
 	icon = 'icons/hud/lobby/bottom_buttons.dmi'
 	icon_state = "settings"
 	base_icon_state = "settings"
-	screen_loc = "TOP:-126,CENTER:-10"
+	screen_loc = "TOP:-49,CENTER:-138"
 
 /atom/movable/screen/lobby/button/settings/Click(location, control, params)
 	. = ..()
@@ -345,7 +345,7 @@
 	icon = 'icons/hud/lobby/bottom_buttons.dmi'
 	icon_state = "volume"
 	base_icon_state = "volume"
-	screen_loc = "TOP:-126,CENTER:-34"
+	screen_loc = "TOP:-49,CENTER:-162"
 
 /atom/movable/screen/lobby/button/volume/Click(location, control, params)
 	. = ..()
@@ -361,14 +361,14 @@
 	icon = 'icons/hud/lobby/changelog.dmi'
 	icon_state = "changelog"
 	base_icon_state = "changelog"
-	screen_loc ="TOP:-98,CENTER:+45"
+	screen_loc ="TOP:-186,CENTER:-277"
 
 
 /atom/movable/screen/lobby/button/crew_manifest
 	icon = 'icons/hud/lobby/manifest.dmi'
 	icon_state = "manifest"
 	base_icon_state = "manifest"
-	screen_loc = "TOP:-98,CENTER:-9"
+	screen_loc = "TOP:-164,CENTER:-277"
 
 /atom/movable/screen/lobby/button/crew_manifest/Click(location, control, params)
 	. = ..()
@@ -385,7 +385,7 @@
 	icon = 'icons/hud/lobby/poll.dmi'
 	icon_state = "poll"
 	base_icon_state = "poll"
-	screen_loc = "TOP:-98,CENTER:-40"
+	screen_loc = "TOP:-98,CENTER:-240"
 
 	var/new_poll = FALSE
 
@@ -448,10 +448,9 @@
 //This is the changing You are here Button
 /atom/movable/screen/lobby/youarehere
 	var/vanderlin = 0
-	screen_loc = "TOP:-81,CENTER:+177"
 	icon = 'icons/hud/lobby/location_indicator.dmi'
 	icon_state = "you_are_here"
-	screen_loc = "TOP,CENTER:-61"
+	screen_loc = "TOP,CENTER:-70"
 
 //Explanation: It gets the port then sets the "here" var in /movable/screen/lobby to the port number
 // and if the port number matches it makes clicking the button do nothing so you dont spam reconnect to the server your in
@@ -466,15 +465,23 @@
 		if(1342)
 			screen_loc = "TOP:-34,CENTER:+190"
 		else
-			screen_loc = "TOP:0,CENTER:0"
+			screen_loc = "TOP:0,CENTER:-70"
 
 
 //HRP MONKE
 /atom/movable/screen/lobby/button/hrp
-	screen_loc = "TOP:-44,CENTER:+173"
+	screen_loc = "TOP:-257,CENTER:-283"
 	icon = 'icons/hud/lobby/sister_server_buttons.dmi'
-	icon_state = "hrp"
+	icon_state = "hrp_off"
 	base_icon_state = "hrp"
+	enabled = FALSE
+
+/atom/movable/screen/lobby/button/hrp/Initialize(mapload)
+	. = ..()
+	if(time2text(world.realtime, "DDD") == "Sat")
+		flick("[base_icon_state]", src)
+		set_button_status(TRUE)
+
 
 /atom/movable/screen/lobby/button/hrp/Click(location, control, params)
 	. = ..()
@@ -486,7 +493,7 @@
 
 //MAIN MONKE
 /atom/movable/screen/lobby/button/mrp
-	screen_loc = "TOP:-77,CENTER:+173"
+	screen_loc = "TOP:-289,CENTER:-283"
 	icon = 'icons/hud/lobby/sister_server_buttons.dmi'
 	icon_state = "mrp"
 	base_icon_state = "mrp"
@@ -500,7 +507,7 @@
 
 //NRP MONKE
 /atom/movable/screen/lobby/button/nrp
-	screen_loc = "TOP:-110,CENTER:+173"
+	screen_loc = "TOP:-321,CENTER:-283"
 	icon = 'icons/hud/lobby/sister_server_buttons.dmi'
 	icon_state = "nrp"
 	base_icon_state = "nrp"
@@ -514,7 +521,7 @@
 
 //The Vanderlin Project
 /atom/movable/screen/lobby/background/vanderlin
-	screen_loc = "TOP:-140,CENTER:+177"
+	screen_loc = "TOP:-351,CENTER:-276"
 	icon = 'icons/hud/lobby/vanderlin_button.dmi'
 	icon_state = "vanderlin_WIP"
 	base_icon_state = "vanderlin_WIP"
@@ -528,7 +535,7 @@
 */
 
 /atom/movable/screen/lobby/button/ook
-	screen_loc = "TOP:-126,CENTER:110"
+	screen_loc = "TOP:-102,CENTER:-162"
 	icon = 'icons/hud/lobby/bottom_buttons.dmi'
 	icon_state = "monke"
 	base_icon_state = "monke"

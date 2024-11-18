@@ -460,29 +460,37 @@
 	. = ..()
 	var/port = world.port
 	switch(port)
-		if(1337)
-			screen_loc = "TOP:-87,CENTER:+190"
-		if(2102)
-			screen_loc = "TOP:-100,CENTER:+190"
-		if(1342)
-			screen_loc = "TOP:-34,CENTER:+190"
-		else
-			screen_loc = "TOP:0,CENTER:0"
+		if(1342) //HRP
+			screen_loc = "TOP:-32,CENTER:+215"
+		if(1337) //MRP
+			screen_loc = "TOP:-65,CENTER:+215"
+		if(2102) //NRP
+			screen_loc = "TOP:-98,CENTER:+215"
+
+		else     //Sticks it in the middle, "TOP:0,CENTER:+128" will point at the MonkeStation logo itself.
+			screen_loc = "TOP:0,CENTER:+128"
 
 
 //HRP MONKE
 /atom/movable/screen/lobby/button/hrp
 	screen_loc = "TOP:-44,CENTER:+173"
 	icon = 'icons/hud/lobby/sister_server_buttons.dmi'
-	icon_state = "hrp"
+	icon_state = "hrp_disabled"
 	base_icon_state = "hrp"
+	enabled = FALSE
+
+/atom/movable/screen/lobby/button/hrp/Initialize(mapload)
+	. = ..()
+	if((time2text(world.realtime, "DDD") == "Sat") && (12 >= (time2text(world.realtime, "hh") <= 18)))
+		flick("[base_icon_state]", src)
+		set_button_status(TRUE)
 
 /atom/movable/screen/lobby/button/hrp/Click(location, control, params)
 	. = ..()
 	if(!.)
 		return
 	if(!(world.port == 1342))
-		if(time2text(world.realtime, "DDD") == "Sat")
+		if((time2text(world.realtime, "DDD") == "Sat") && (12 >= (time2text(world.realtime, "hh") <= 18)))
 			hud.mymob.client << link("byond://198.37.111.92:1342")
 
 //MAIN MONKE

@@ -522,19 +522,26 @@
 		hud.mymob.client << link("byond://198.37.111.92:2102")
 
 //The Vanderlin Project
-/atom/movable/screen/lobby/background/vanderlin
+/atom/movable/screen/lobby/button/vanderlin
 	screen_loc = "TOP:-140,CENTER:+177"
 	icon = 'icons/hud/lobby/vanderlin_button.dmi'
 	icon_state = "vanderlin_WIP"
-	base_icon_state = "vanderlin_WIP"
+	base_icon_state = "vanderlin"
+	enabled = FALSE
 
-/*
+/atom/movable/screen/lobby/button/vanderlin/Initialize(mapload)
+	. = ..()
+	if((time2text(world.realtime, "DDD") == "Fri") && ((time2text(world.realtime, "hh") >= 15))) || (time2text(world.realtime, "DDD") == "Sat" || (time2text(world.realtime, "DDD") == "Sun"))
+		flick("[base_icon_state]", src)
+		set_button_status(TRUE)
+
 /atom/movable/screen/lobby/button/vanderlin/Click(location, control, params)
 	. = ..()
 	if(!.)
 		return
-	hud.mymob.client << link("byond://play.monkestation.com:1337")
-*/
+	if(!(world.port == 1541))
+		if((time2text(world.realtime, "DDD") == "Fri") && ((time2text(world.realtime, "hh") >= 15))) || (time2text(world.realtime, "DDD") == "Sat" || (time2text(world.realtime, "DDD") == "Sun"))
+			hud.mymob.client << link("198.37.111.92:1541")
 
 /atom/movable/screen/lobby/button/ook
 	screen_loc = "TOP:-126,CENTER:110"

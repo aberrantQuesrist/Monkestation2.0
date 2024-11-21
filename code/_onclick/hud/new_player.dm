@@ -554,4 +554,4 @@
 	. = ..()
 	if(!.)
 		return
-//	playsound(get_turf(usr), 'monkestation/sound/misc/menumonkey.ogg', 50, TRUE)
+//	SEND_SOUND(usr, 'monkestation/sound/misc/menumonkey.ogg')

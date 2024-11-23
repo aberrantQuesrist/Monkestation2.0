@@ -480,17 +480,17 @@
 	enabled = FALSE
 
 /atom/movable/screen/lobby/button/hrp/Initialize(mapload)
-	. = ..()
-	if((time2text(world.realtime, "DDD") == "Sat") && (12 >= (time2text(world.realtime, "hh") <= 18)))
-		flick("[base_icon_state]", src)
-		set_button_status(TRUE)
+    . = ..()
+    if((time2text(world.realtime, "DDD") == "Sat") && (time2text(world.realtime, "hh") >= 12) && (time2text(world.realtime, "hh") <= 18))
+        flick("[base_icon_state]", src)
+        set_button_status(TRUE)
 
 /atom/movable/screen/lobby/button/hrp/Click(location, control, params)
 	. = ..()
 	if(!.)
 		return
 	if(!(world.port == 1342))
-		if((time2text(world.realtime, "DDD") == "Sat") && (12 >= (time2text(world.realtime, "hh") <= 18)))
+		if((time2text(world.realtime, "DDD") == "Sat") && (time2text(world.realtime, "hh") >= 12) && (time2text(world.realtime, "hh") <= 18))
 			hud.mymob.client << link("byond://198.37.111.92:1342")
 
 //MAIN MONKE
@@ -525,13 +525,13 @@
 /atom/movable/screen/lobby/button/vanderlin
 	screen_loc = "TOP:-140,CENTER:+177"
 	icon = 'icons/hud/lobby/vanderlin_button.dmi'
-	icon_state = "vanderlin_WIP"
+	icon_state = "vanderlin_disabled"
 	base_icon_state = "vanderlin"
 	enabled = FALSE
 
 /atom/movable/screen/lobby/button/vanderlin/Initialize(mapload)
 	. = ..()
-	if((time2text(world.realtime, "DDD") == "Fri") && ((time2text(world.realtime, "hh") >= 15))) || (time2text(world.realtime, "DDD") == "Sat" || (time2text(world.realtime, "DDD") == "Sun"))
+	if(((time2text(world.realtime, "DDD") == "Fri") && ((time2text(world.realtime, "hh") >= 15))) || (time2text(world.realtime, "DDD") == "Sat") || (time2text(world.realtime, "DDD") == "Sun"))
 		flick("[base_icon_state]", src)
 		set_button_status(TRUE)
 
@@ -540,9 +540,10 @@
 	if(!.)
 		return
 	if(!(world.port == 1541))
-		if((time2text(world.realtime, "DDD") == "Fri") && ((time2text(world.realtime, "hh") >= 15))) || (time2text(world.realtime, "DDD") == "Sat" || (time2text(world.realtime, "DDD") == "Sun"))
+		if(((time2text(world.realtime, "DDD") == "Fri") && ((time2text(world.realtime, "hh") >= 15))) || (time2text(world.realtime, "DDD") == "Sat") || (time2text(world.realtime, "DDD") == "Sun"))
 			hud.mymob.client << link("198.37.111.92:1541")
 
+//Monke button
 /atom/movable/screen/lobby/button/ook
 	screen_loc = "TOP:-126,CENTER:110"
 	icon = 'icons/hud/lobby/bottom_buttons.dmi'

@@ -19953,7 +19953,8 @@
 /obj/effect/portal/permanent{
 	layer = 2;
 	name = "Sifting Snow";
-	light_color = "#ffd6cc"
+	light_color = "#ffd6cc";
+	id = 2213
 	},
 /turf/open/misc/snow/actually_safe,
 /area/centcom/central_command_areas/adminroom)
@@ -22928,7 +22929,8 @@
 /obj/effect/portal/permanent{
 	layer = 2;
 	name = "Sifting Snow";
-	light_color = "#ffd6cc"
+	light_color = "#ffd6cc";
+	id = 2213
 	},
 /turf/open/floor/carpet/purple,
 /area/centcom/central_command_areas/adminroom)

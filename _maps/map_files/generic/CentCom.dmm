@@ -971,12 +971,11 @@
 /obj/structure/sign{
 	name = "wall";
 	icon = 'monkestation/icons/turf/walls/reinforced_wall.dmi';
-	icon_state = "reinforced_wall-3";
-	desc = "Effectively impervious to conventional methods of destruction.";
-	pixel_x = -32
+	icon_state = "reinforced_wall-12";
+	pixel_y = -32
 	},
-/turf/closed/indestructible/riveted,
-/area/centcom/central_command_areas/adminroom)
+/turf/open/floor/iron/dark/smooth_large,
+/area/centcom/central_command_areas/retirement_yard)
 "acD" = (
 /obj/structure/chair/pew{
 	dir = 8
@@ -1263,6 +1262,13 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/structure/sign{
+	name = "wall";
+	icon = 'monkestation/icons/turf/walls/reinforced_wall.dmi';
+	icon_state = "reinforced_wall-3";
+	desc = "Effectively impervious to conventional methods of destruction.";
+	pixel_x = 32
+	},
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/supply)
 "adp" = (
@@ -3889,13 +3895,14 @@
 /area/centcom/syndicate_mothership/control)
 "akG" = (
 /obj/structure/sign{
-	name = "wall";
-	icon = 'monkestation/icons/turf/walls/reinforced_wall.dmi';
-	icon_state = "reinforced_wall-12";
-	pixel_y = -32
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-3";
+	desc = "Effectively impervious to conventional methods of destruction.";
+	pixel_x = -32
 	},
-/turf/open/space/basic,
-/area/space)
+/turf/open/floor/glass/plasma,
+/area/centcom/central_command_areas/adminroom)
 "akH" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/wood/tile,
@@ -5240,6 +5247,13 @@
 /area/centcom/central_command_areas/admin_hangout)
 "aoj" = (
 /obj/structure/flora/grass/green/style_random,
+/obj/structure/sign{
+	name = "mountainside";
+	icon = 'icons/turf/walls.dmi';
+	icon_state = "snowrock";
+	pixel_y = 32;
+	layer = 2.8
+	},
 /turf/open/misc/snow/actually_safe,
 /area/centcom/central_command_areas/adminroom)
 "aok" = (
@@ -8772,6 +8786,13 @@
 	layer = 2.8;
 	pixel_x = 32
 	},
+/obj/structure/sign{
+	name = "mountainside";
+	icon = 'icons/turf/walls.dmi';
+	icon_state = "snowrock";
+	desc = "Effectively impervious to conventional methods of destruction.";
+	pixel_x = 32
+	},
 /turf/open/misc/snow/actually_safe,
 /area/centcom/central_command_areas/adminroom)
 "axY" = (
@@ -8818,6 +8839,13 @@
 /area/centcom/central_command_areas/arcade)
 "aya" = (
 /obj/structure/flora/grass/both/style_random,
+/obj/structure/sign{
+	name = "mountainside";
+	icon = 'icons/turf/walls.dmi';
+	icon_state = "snowrock";
+	pixel_y = 32;
+	layer = 2.8
+	},
 /turf/open/misc/snow/actually_safe,
 /area/centcom/central_command_areas/adminroom)
 "ayb" = (
@@ -12965,14 +12993,16 @@
 /turf/open/floor/wood/large,
 /area/centcom/central_command_areas/admin_hangout)
 "aJv" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/sign{
 	name = "wall";
 	icon = 'monkestation/icons/turf/walls/reinforced_wall.dmi';
-	icon_state = "reinforced_wall-12";
-	pixel_y = -32
+	icon_state = "reinforced_wall-3";
+	desc = "Effectively impervious to conventional methods of destruction.";
+	pixel_x = 32
 	},
-/turf/closed/indestructible/riveted,
-/area/centcom/central_command_areas/retirement_yard)
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/supply)
 "aJw" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
@@ -14415,6 +14445,13 @@
 /area/centcom/syndicate_mothership/expansion_bombthreat)
 "aNl" = (
 /obj/machinery/light/floor/has_bulb,
+/obj/structure/sign{
+	name = "mountainside";
+	icon = 'icons/turf/walls.dmi';
+	icon_state = "snowrock";
+	pixel_y = 32;
+	layer = 2.8
+	},
 /turf/open/misc/snow/actually_safe,
 /area/centcom/central_command_areas/adminroom)
 "aNm" = (
@@ -15358,14 +15395,14 @@
 /area/centcom/syndicate_mothership/control)
 "aPR" = (
 /obj/structure/sign{
-	name = "wall";
-	icon = 'monkestation/icons/turf/walls/reinforced_wall.dmi';
-	icon_state = "reinforced_wall-3";
-	desc = "Effectively impervious to conventional methods of destruction.";
-	pixel_x = -32
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-12";
+	pixel_y = 32;
+	layer = 2.8
 	},
-/turf/open/space/basic,
-/area/space)
+/turf/open/floor/glass/plasma,
+/area/centcom/central_command_areas/adminroom)
 "aPS" = (
 /obj/machinery/computer/camera_advanced{
 	dir = 8;
@@ -16881,7 +16918,13 @@
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/ferry)
 "aTL" = (
-/obj/machinery/growing/soil,
+/obj/structure/sign{
+	name = "mountainside";
+	icon = 'icons/turf/walls.dmi';
+	icon_state = "snowrock";
+	desc = "Effectively impervious to conventional methods of destruction.";
+	pixel_x = -32
+	},
 /turf/open/misc/snow/actually_safe,
 /area/centcom/central_command_areas/adminroom)
 "aTM" = (
@@ -17098,15 +17141,16 @@
 /turf/open/floor/wood/large,
 /area/centcom/central_command_areas/borbop)
 "aUv" = (
+/obj/machinery/growing/soil,
 /obj/structure/sign{
-	name = "wall";
-	icon = 'monkestation/icons/turf/walls/reinforced_wall.dmi';
-	icon_state = "reinforced_wall-10";
+	name = "mountainside";
+	icon = 'icons/turf/walls.dmi';
+	icon_state = "snowrock";
 	desc = "Effectively impervious to conventional methods of destruction.";
-	pixel_x = -32
+	pixel_x = 32
 	},
-/turf/open/space/basic,
-/area/space)
+/turf/open/misc/snow/actually_safe,
+/area/centcom/central_command_areas/adminroom)
 "aUw" = (
 /obj/machinery/light/cold/directional/west,
 /turf/open/floor/iron/dark/textured_large,
@@ -17626,6 +17670,28 @@
 /area/centcom/central_command_areas/supplypod/loading/four)
 "aVQ" = (
 /obj/structure/flora/tree/pine/style_random,
+/obj/structure/sign{
+	name = "mountainside";
+	icon = 'icons/turf/walls.dmi';
+	icon_state = "snowrock";
+	pixel_y = 32;
+	layer = 2.8
+	},
+/obj/structure/sign{
+	name = "mountainside";
+	icon = 'icons/turf/walls.dmi';
+	icon_state = "snowrock";
+	desc = "Effectively impervious to conventional methods of destruction.";
+	pixel_x = 32
+	},
+/obj/structure/sign{
+	name = "mountainside";
+	icon = 'icons/turf/walls.dmi';
+	icon_state = "snowrock";
+	pixel_y = 32;
+	layer = 2.8;
+	pixel_x = 32
+	},
 /turf/open/misc/snow/actually_safe,
 /area/centcom/central_command_areas/adminroom)
 "aVR" = (
@@ -18010,6 +18076,13 @@
 	pixel_y = -24
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/structure/sign{
+	name = "wall";
+	icon = 'monkestation/icons/turf/walls/reinforced_wall.dmi';
+	icon_state = "reinforced_wall-3";
+	desc = "Effectively impervious to conventional methods of destruction.";
+	pixel_x = 32
+	},
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/supply)
 "aWU" = (
@@ -18122,6 +18195,21 @@
 	dir = 8
 	},
 /obj/structure/flora/tree/pine/style_random,
+/obj/structure/sign{
+	name = "mountainside";
+	icon = 'icons/turf/walls.dmi';
+	icon_state = "snowrock";
+	pixel_y = 32;
+	layer = 2.8
+	},
+/obj/structure/sign{
+	name = "mountainside";
+	icon = 'icons/turf/walls.dmi';
+	icon_state = "snowrock";
+	pixel_y = 32;
+	layer = 2.8;
+	pixel_x = -32
+	},
 /turf/open/misc/snow/actually_safe,
 /area/centcom/central_command_areas/adminroom)
 "aXj" = (
@@ -19265,6 +19353,13 @@
 "bog" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/food/pie/berryclafoutis,
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-3";
+	desc = "Effectively impervious to conventional methods of destruction.";
+	pixel_x = 32
+	},
 /turf/open/floor/glass/plasma,
 /area/centcom/central_command_areas/adminroom)
 "bpj" = (
@@ -19300,6 +19395,18 @@
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/grass,
 /area/centcom/central_command_areas/admin)
+"btS" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/structure/sign{
+	name = "wall";
+	icon = 'monkestation/icons/turf/walls/reinforced_wall.dmi';
+	icon_state = "reinforced_wall-12";
+	pixel_y = -32
+	},
+/turf/open/floor/grass,
+/area/centcom/central_command_areas/retirement_yard)
 "bwb" = (
 /obj/structure/railing/wooden_fence{
 	dir = 8
@@ -19773,6 +19880,13 @@
 	name = "Photography Camera";
 	desc = "A polaroid camera, written on the bottom is Frill's name written in elegant cursive."
 	},
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-12";
+	pixel_y = 32;
+	layer = 2.8
+	},
 /turf/open/floor/glass/plasma,
 /area/centcom/central_command_areas/adminroom)
 "cMo" = (
@@ -19985,7 +20099,8 @@
 /obj/effect/portal/permanent{
 	layer = 2;
 	name = "Sifting Snow";
-	light_color = "#ffd6cc"
+	light_color = "#ffd6cc";
+	id = 920
 	},
 /turf/open/floor/carpet/purple,
 /area/centcom/central_command_areas/adminroom)
@@ -20591,6 +20706,15 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/cruiser_dock)
+"flm" = (
+/obj/effect/portal/permanent{
+	layer = 2;
+	name = "Sifting Snow";
+	light_color = "#ffd6cc";
+	id = 920
+	},
+/turf/open/misc/snow/actually_safe,
+/area/centcom/central_command_areas/adminroom)
 "flv" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -20892,6 +21016,27 @@
 /obj/structure/flora/bush/fullgrass/style_random,
 /obj/structure/flora/bush/flowers_pp,
 /obj/item/kirbyplants/organic/plant18,
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-12";
+	pixel_y = -32
+	},
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-3";
+	desc = "Effectively impervious to conventional methods of destruction.";
+	pixel_x = 32
+	},
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-9";
+	pixel_y = -32;
+	layer = 2.8;
+	pixel_x = 32
+	},
 /turf/open/floor/carpet/purple,
 /area/centcom/central_command_areas/adminroom)
 "gjz" = (
@@ -20971,6 +21116,24 @@
 	},
 /turf/open/floor/plastic,
 /area/centcom/central_command_areas/admin)
+"gnK" = (
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-12";
+	pixel_y = 32;
+	layer = 2.8
+	},
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-6";
+	pixel_y = 32;
+	layer = 2.8;
+	pixel_x = -32
+	},
+/turf/open/floor/glass/plasma,
+/area/centcom/central_command_areas/adminroom)
 "gnL" = (
 /obj/machinery/light/directional/east,
 /turf/open/water/arena,
@@ -21210,6 +21373,16 @@
 /obj/structure/chair/sofa/left/maroon,
 /turf/open/floor/carpet/neon/simple/green/nodots,
 /area/centcom/central_command_areas/admin)
+"gNQ" = (
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-3";
+	desc = "Effectively impervious to conventional methods of destruction.";
+	pixel_x = 32
+	},
+/turf/open/floor/glass/plasma,
+/area/centcom/central_command_areas/adminroom)
 "gOu" = (
 /obj/item/storage/toolbox/fishing,
 /turf/open/floor/sandy_dirt,
@@ -21372,6 +21545,12 @@
 	dir = 8
 	},
 /obj/machinery/light/directional/south,
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-12";
+	pixel_y = -32
+	},
 /turf/open/floor/glass/plasma,
 /area/centcom/central_command_areas/adminroom)
 "hjV" = (
@@ -21525,6 +21704,28 @@
 /obj/structure/easel,
 /obj/item/canvas/twentyfour_twentyfour,
 /obj/item/paint_palette,
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-10";
+	pixel_y = 32;
+	layer = 2.8;
+	pixel_x = 32
+	},
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-12";
+	pixel_y = 32;
+	layer = 2.8
+	},
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-3";
+	desc = "Effectively impervious to conventional methods of destruction.";
+	pixel_x = 32
+	},
 /turf/open/floor/glass/plasma,
 /area/centcom/central_command_areas/adminroom)
 "hAI" = (
@@ -22139,13 +22340,6 @@
 	pixel_y = -3
 	},
 /obj/item/mod/module/flamethrower,
-/obj/structure/sign{
-	name = "wall";
-	icon = 'monkestation/icons/turf/walls/reinforced_wall.dmi';
-	icon_state = "reinforced_wall-3";
-	desc = "Effectively impervious to conventional methods of destruction.";
-	pixel_x = -32
-	},
 /turf/open/floor/glass/reinforced/plasma,
 /area/centcom/central_command_areas/adminroom)
 "iXa" = (
@@ -23749,6 +23943,13 @@
 	pixel_y = 28
 	},
 /obj/machinery/light/directional/north,
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-12";
+	pixel_y = 32;
+	layer = 2.8
+	},
 /turf/open/floor/glass/plasma,
 /area/centcom/central_command_areas/adminroom)
 "oJx" = (
@@ -24349,6 +24550,13 @@
 /obj/structure/alien_tank/filled{
 	name = "Tank";
 	desc = "A sticky note is taped to the front. It just has a bunch of question marks on it, a heart, and a smiley face."
+	},
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-3";
+	desc = "Effectively impervious to conventional methods of destruction.";
+	pixel_x = -32
 	},
 /turf/open/floor/glass/plasma,
 /area/centcom/central_command_areas/adminroom)
@@ -25502,6 +25710,12 @@
 /obj/structure/table/wood/fancy/black,
 /obj/item/food/cake/bscc,
 /obj/machinery/light/directional/south,
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-12";
+	pixel_y = -32
+	},
 /turf/open/floor/glass/plasma,
 /area/centcom/central_command_areas/adminroom)
 "tYX" = (
@@ -25665,6 +25879,27 @@
 "uEk" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/taperecorder,
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-3";
+	desc = "Effectively impervious to conventional methods of destruction.";
+	pixel_x = -32
+	},
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-5";
+	pixel_y = -32;
+	layer = 2.8;
+	pixel_x = -32
+	},
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-12";
+	pixel_y = -32
+	},
 /turf/open/floor/glass/plasma,
 /area/centcom/central_command_areas/adminroom)
 "uGL" = (
@@ -26119,6 +26354,13 @@
 	name = "Scarlett's Potato";
 	desc = "She doesn't seem thrilled by this predicament... but it's hard to tell with a potato."
 	},
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-3";
+	desc = "Effectively impervious to conventional methods of destruction.";
+	pixel_x = -32
+	},
 /turf/open/floor/glass/plasma,
 /area/centcom/central_command_areas/adminroom)
 "vWu" = (
@@ -26301,6 +26543,13 @@
 /obj/structure/mirror/magic{
 	pixel_y = 28
 	},
+/obj/structure/sign{
+	name = "office wall";
+	icon = 'icons/turf/walls/snow_wall.dmi';
+	icon_state = "snow_wall-12";
+	pixel_y = 32;
+	layer = 2.8
+	},
 /turf/open/floor/glass/plasma,
 /area/centcom/central_command_areas/adminroom)
 "wqf" = (
@@ -26314,6 +26563,15 @@
 	},
 /turf/open/floor/plastic,
 /area/centcom/central_command_areas/admin)
+"wri" = (
+/obj/structure/sign{
+	name = "wall";
+	icon = 'monkestation/icons/turf/walls/reinforced_wall.dmi';
+	icon_state = "reinforced_wall-12";
+	pixel_y = -32
+	},
+/turf/open/floor/grass,
+/area/centcom/central_command_areas/retirement_yard)
 "wrB" = (
 /obj/structure/railing/wooden_fence{
 	dir = 6
@@ -55902,7 +56160,7 @@ aiF
 aov
 aoO
 ado
-ahz
+aJv
 aWS
 aWo
 awM
@@ -56414,10 +56672,10 @@ aaa
 aaa
 aaa
 aaa
-akG
+aaa
+kpH
 atj
-atj
-atj
+flm
 atj
 kpH
 kpH
@@ -56671,8 +56929,8 @@ aft
 aft
 aft
 aft
-aJv
-atj
+aft
+kpH
 aXi
 aTL
 aQh
@@ -56701,10 +56959,10 @@ atW
 aHo
 azt
 kpH
-sVm
-sVm
+gnK
+akG
 qzm
-sVm
+akG
 vUQ
 uEk
 kpH
@@ -56927,9 +57185,9 @@ aYB
 aYB
 aYB
 aGD
-afC
-aJv
-atj
+wri
+aft
+kpH
 aya
 aUo
 aTA
@@ -57184,9 +57442,9 @@ jbf
 azQ
 azQ
 azQ
-acd
-aJv
-atj
+btS
+aft
+kpH
 aNl
 aMU
 ahU
@@ -57215,7 +57473,7 @@ aXn
 aDw
 aGe
 kpH
-sVm
+aPR
 aNa
 vkm
 aNa
@@ -57441,9 +57699,9 @@ aYr
 aYr
 aYr
 aYr
-aYr
-aJv
-atj
+acC
+aft
+kpH
 aoj
 apL
 anq
@@ -57698,11 +57956,11 @@ bTx
 awb
 awb
 tbq
-aYr
-aJv
-atj
+acC
+aft
+kpH
 aVQ
-aTL
+aUv
 axX
 kpH
 alO
@@ -57729,7 +57987,7 @@ aCs
 aiD
 aHQ
 kpH
-sVm
+aPR
 aNa
 kfh
 aNa
@@ -57955,12 +58213,12 @@ aYr
 aYr
 aYr
 acv
-aYr
+acC
 aft
-atj
-atj
-atj
-atj
+kpH
+kpH
+kpH
+kpH
 kpH
 kpH
 kpH
@@ -58214,9 +58472,9 @@ aYr
 acv
 aYr
 aft
-aUv
-aPR
-acC
+aaa
+aaa
+kpH
 iWt
 aup
 aMI
@@ -58244,7 +58502,7 @@ eHz
 kpH
 kpH
 hAz
-sVm
+gNQ
 sVm
 xbs
 bog

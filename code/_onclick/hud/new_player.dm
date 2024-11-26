@@ -540,8 +540,6 @@
 				vanderlin_enable()
 		if("Sat", "Sun")
 			vanderlin_enable()
-		else
-			return
 
 /atom/movable/screen/lobby/button/vanderlin/proc/vanderlin_enable()
 	flick("[base_icon_state]", src)
@@ -555,8 +553,6 @@
 	if(!(world.port == 1541))
 		if(enabled)
 			hud.mymob.client << link("198.37.111.92:1541")
-		else
-			return
 
 //Monke button
 /atom/movable/screen/lobby/button/ook

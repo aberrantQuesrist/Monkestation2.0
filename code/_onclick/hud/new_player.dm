@@ -528,12 +528,12 @@
 	icon_state = "vanderlin_disabled"
 	base_icon_state = "vanderlin"
 	enabled = FALSE
-PING
+
 /atom/movable/screen/lobby/button/vanderlin/Initialize(mapload)
 	. = ..()
 	var/current_day = time2text(world.realtime, "DDD")
 	var/current_time = (time2text(world.realtime, "hh")
-	var/enabled = FALSE //
+	var/enabled = FALSE
 	switch(current_day)
 		if("Fri")
 			if(current_time >= 15)

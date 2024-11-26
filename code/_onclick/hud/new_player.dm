@@ -481,9 +481,9 @@
 
 /atom/movable/screen/lobby/button/hrp/Initialize(mapload)
     . = ..()
-    if((time2text(world.realtime, "DDD") == "Sat") && (time2text(world.realtime, "hh") >= 12) && (time2text(world.realtime, "hh") <= 18))
-        flick("[base_icon_state]", src)
-        set_button_status(TRUE)
+	if((time2text(world.realtime, "DDD") == "Sat") && (time2text(world.realtime, "hh") >= 12) && (time2text(world.realtime, "hh") <= 18))
+		flick("[base_icon_state]", src)
+		set_button_status(TRUE)
 
 /atom/movable/screen/lobby/button/hrp/Click(location, control, params)
 	. = ..()

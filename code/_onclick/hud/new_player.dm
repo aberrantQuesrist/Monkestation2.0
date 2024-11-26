@@ -533,6 +533,7 @@ PING
 	. = ..()
 	var/current_day = time2text(world.realtime, "DDD")
 	var/current_time = (time2text(world.realtime, "hh")
+	var/enabled = FALSE
 	switch(current_day)
 		if("Fri")
 			if(current_time >= 15)
@@ -545,13 +546,14 @@ PING
 /atom/movable/screen/lobby/button/vanderlin/proc/vanderlin_enable()
 	flick("[base_icon_state]", src)
 	set_button_status(TRUE)
+	enabled = TRUE
 
 /atom/movable/screen/lobby/button/vanderlin/Click(location, control, params)
 	. = ..()
 	if(!.)
 		return
 	if(!(world.port == 1541))
-		if(((time2text(world.realtime, "DDD") == "Fri") && ((time2text(world.realtime, "hh") >= 15))) || (time2text(world.realtime, "DDD") == "Sat") || (time2text(world.realtime, "DDD") == "Sun"))
+		if(enabled)
 			hud.mymob.client << link("198.37.111.92:1541")
 
 //Monke button

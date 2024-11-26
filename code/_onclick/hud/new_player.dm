@@ -480,7 +480,7 @@
 	enabled = FALSE
 
 /atom/movable/screen/lobby/button/hrp/Initialize(mapload)
-    . = ..()
+	. = ..()
 	if((time2text(world.realtime, "DDD") == "Sat") && (time2text(world.realtime, "hh") >= 12) && (time2text(world.realtime, "hh") <= 18))
 		flick("[base_icon_state]", src)
 		set_button_status(TRUE)
@@ -532,7 +532,7 @@
 /atom/movable/screen/lobby/button/vanderlin/Initialize(mapload)
 	. = ..()
 	var/current_day = time2text(world.realtime, "DDD")
-	var/current_time = (time2text(world.realtime, "hh")
+	var/current_time = time2text(world.realtime, "hh")
 	var/enabled = FALSE
 	switch(current_day)
 		if("Fri")

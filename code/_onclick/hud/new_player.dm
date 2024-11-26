@@ -533,7 +533,7 @@ PING
 	. = ..()
 	var/current_day = time2text(world.realtime, "DDD")
 	var/current_time = (time2text(world.realtime, "hh")
-	var/enabled = FALSE
+	var/enabled = FALSE //
 	switch(current_day)
 		if("Fri")
 			if(current_time >= 15)
@@ -555,6 +555,8 @@ PING
 	if(!(world.port == 1541))
 		if(enabled)
 			hud.mymob.client << link("198.37.111.92:1541")
+		else
+			return
 
 //Monke button
 /atom/movable/screen/lobby/button/ook

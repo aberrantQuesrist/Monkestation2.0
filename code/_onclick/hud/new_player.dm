@@ -532,8 +532,8 @@
 /atom/movable/screen/lobby/button/vanderlin/Initialize(mapload)
 	. = ..()
 	if(((time2text(world.realtime, "DDD") == "Fri") && ((time2text(world.realtime, "hh") >= 15))) || (time2text(world.realtime, "DDD") == "Sat") || (time2text(world.realtime, "DDD") == "Sun"))
-		flick("[base_icon_state]", src)
-		set_button_status(TRUE)
+	flick("[base_icon_state]", src)
+	set_button_status(TRUE)
 
 /atom/movable/screen/lobby/button/vanderlin/Click(location, control, params)
 	. = ..()
@@ -554,4 +554,4 @@
 	. = ..()
 	if(!.)
 		return
-//	SEND_SOUND(usr, 'monkestation/sound/misc/menumonkey.ogg')
+	SEND_SOUND(usr, 'monkestation/sound/misc/menumonkey.ogg')
